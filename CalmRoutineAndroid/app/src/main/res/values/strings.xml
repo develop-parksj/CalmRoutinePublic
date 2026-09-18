@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">CalmRoutine</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_loading">Loading</string>
+    <string name="common_add">Add</string>
+    <string name="common_undo">Undo</string>
+    <string name="common_save">Save</string>
+
+    <!-- ログイン画面 -->
+    <string name="login_login">Login</string>
+
+    <!-- ホーム画面 -->
+    <string name="home_title">Hi there 👋</string>
+
+    <!-- 今日のルーティン -->
+    <string name="home_today_routine_title">Today’s Routine</string>
+    <string name="home_today_routine_summary">%1$d of %2$d routines completed</string>
+    <string name="home_today_routine_incomplete">Incomplete routines</string>
+
+    <!-- 今日の気分 -->
+    <string name="home_today_mood_title">Today’s Mood</string>
+    <string name="home_today_mood_prompt">You haven’t recorded your mood today.</string>
+    <string name="home_today_mood_question">How are you feeling today?</string>
+    <string name="home_today_mood_record">Record Mood</string>
+
+    <!-- 最近の気分の記録 -->
+    <string name="home_recent_moods_title">Recent Moods</string>
+    <string name="home_recent_moods_view_all">View All</string>
+    <string name="home_recent_moods_not_yet">No mood records yet.</string>
+
+    <!-- ルーティン画面 -->
+    <string name="routine_title">Today’s Routine</string>
+    <string name="routine_completion_text">%1$d / %2$d routines completed (%3$d%%)</string>
+    <string name="routine_empty_hint">No routines yet. Add one!</string>
+    <string name="routine_add_title">Add New Routine</string>
+    <string name="routine_add_hint">Enter routine title</string>
+    <string name="routine_add">Add</string>
+    <string name="routine_edit_hint">Edit routine name</string>
+    <string name="routine_deleted">Routine deleted</string>
+
+    <!-- 気分画面 -->
+    <string name="mood_title">How are you feeling today?</string>
+    <string name="mood_memo_hint">Feel free to write about your day, your mood, or your thoughts</string>
+    <string name="mood_memo_placeholder">Write anything you’d like...</string>
+    <string name="mood_ai_comment_title">AI Comment</string>
+    <string name="mood_loading">Loading...</string>
+    <string name="mood_comment_error">Failed to get AI comment 😢</string>
+    <string name="mood_save_ads_loading">Getting your moment ready... 🌿</string>
+
+    <string name="mood_add_custom_mood_title">Add Custom Emoji</string>
+    <string name="mood_add_custom_mood_emoji_label">Emoji</string>
+
+    <!-- 気分の履歴画面 -->
+    <string name="mood_history_title">Mood History</string>
+    <string name="mood_history_no_records">No mood records found.</string>
+    <string name="mood_history_date_format">%1$s</string> <!-- 例: 2025-06-30 -->
+    <string name="mood_history_ai_comment_label">AI Comment:</string>
+    <string name="mood_history_memo_label">Your Note:</string>
+
+    <!-- 設定画面 -->
+    <!-- 1. アカウントと認証 -->
+    <string name="settings_logout">Logout</string>
+    <string name="settings_logout_desc">Sign out from your account</string>
+
+    <string name="settings_edit_profile">Edit Profile</string>
+    <string name="settings_edit_profile_desc">Update your nickname, gender, birthday, and interests</string>
+
+    <string name="settings_edit_profile_title">Edit Profile</string>
+    <string name="settings_edit_profile_email_label">Email</string>
+    <string name="settings_edit_profile_nickname_label">Nickname</string>
+    <string name="settings_edit_profile_gender_label">Gender</string>
+    <string name="settings_edit_profile_birthdate_label">Birthdate</string>
+    <string name="settings_edit_profile_interest_label">Interests</string>
+    <string name="settings_edit_profile_interest_hint">Type and press enter...</string>
+    <string name="settings_edit_profile_save_button">Save</string>
+
+    <string name="settings_edit_profile_gender_male">Male</string>
+    <string name="settings_edit_profile_gender_female">Female</string>
+    <string name="settings_edit_profile_gender_unspecified">Unspecified</string>
+
+    <!-- 2. 通知設定 -->
+    <string name="settings_push_notifications">Push Notifications</string>
+    <string name="settings_push_notifications_desc">Enable or disable notifications</string>
+
+    <string name="settings_notification_time">Notification Time</string>
+    <string name="settings_notification_time_desc">Set preferred time for reminders</string>
+
+    <string name="settings_notification_type">Notification Type</string>
+    <string name="settings_notification_type_desc">Choose types of notifications</string>
+
+    <string name="settings_notification_type_dialog_title">Select Notification Types</string>
+    <string name="settings_notification_type_routine">Routine Reminders</string>
+    <string name="settings_notification_type_mood">Mood Check-ins</string>
+    <string name="settings_notification_type_ai">AI Coach Tips</string>
+
+    <!-- 通知メッセージ -->
+    <string name="notification_title_routine_01">Keep Your Flow 🌅</string>
+    <string name="notification_msg_routine_01">Don’t forget to check your routine for today.</string>
+
+    <string name="notification_title_routine_02">Stay Gently On Track 🧭</string>
+    <string name="notification_msg_routine_02">A small routine keeps the day grounded.</string>
+
+    <string name="notification_title_routine_03">One Step at a Time 👣</string>
+    <string name="notification_msg_routine_03">Your calm rhythm matters — keep it going.</string>
+
+    <string name="notification_title_routine_04">A Moment for You 🕊️</string>
+    <string name="notification_msg_routine_04">Let your habits take care of the rest.</string>
+
+    <string name="notification_title_routine_05">Check In With Your Flow 💧</string>
+    <string name="notification_msg_routine_05">Let’s keep the momentum, gently.</string>
+
+    <string name="notification_title_routine_06">Breathe and Begin 🌬️</string>
+    <string name="notification_msg_routine_06">Your routine is ready when you are.</string>
+
+    <string name="notification_title_routine_07">Anchor Your Day ⚓</string>
+    <string name="notification_msg_routine_07">A small habit grounds the mind.</string>
+
+    <string name="notification_title_routine_08">Calm Progress Matters 🌿</string>
+    <string name="notification_msg_routine_08">You’re building something beautiful — one step at a time.</string>
+
+    <string name="notification_title_routine_09">Your Gentle Guide Is Here 💫</string>
+    <string name="notification_msg_routine_09">Your daily steps are waiting for you.</string>
+
+    <string name="notification_title_routine_10">Tiny Rituals, Big Peace ✨</string>
+    <string name="notification_msg_routine_10">Even small routines hold great meaning.</string>
+
+    <string name="notification_title_mood_01">How’s Your Heart Today? 💛</string>
+    <string name="notification_msg_mood_01">Take a moment to check in with yourself.</string>
+
+    <string name="notification_title_mood_02">Just You &amp; This Moment 🌿</string>
+    <string name="notification_msg_mood_02">Pause and gently notice how you feel.</string>
+
+    <string name="notification_title_mood_03">Tiny Feelings Matter 🌙</string>
+    <string name="notification_msg_mood_03">Whatever you’re feeling — it belongs.</string>
+
+    <string name="notification_title_mood_04">Gentle Check-In 🫧</string>
+    <string name="notification_msg_mood_04">Your mood is worth noticing, always.</string>
+
+    <string name="notification_title_mood_05">Hello, Inner Weather ☁️</string>
+    <string name="notification_msg_mood_05">How’s your sky looking today?</string>
+
+    <string name="notification_title_mood_06">Let It In, Let It Be 🌊</string>
+    <string name="notification_msg_mood_06">It’s okay to feel what you feel.</string>
+
+    <string name="notification_title_mood_07">A Breath of Awareness 🌬️</string>
+    <string name="notification_msg_mood_07">Inhale, exhale — and gently check your mood.</string>
+
+    <string name="notification_title_mood_08">Slow Down &amp; Listen 🎧</string>
+    <string name="notification_msg_mood_08">Your emotions have something to say.</string>
+
+    <string name="notification_title_mood_09">Be Still, Be Kind 🤲</string>
+    <string name="notification_msg_mood_09">Give yourself space to feel without judgment.</string>
+
+    <string name="notification_title_mood_10">You’re Safe to Feel 🌌</string>
+    <string name="notification_msg_mood_10">This moment is just for you. What’s inside?</string>
+
+    <!-- 3. AIコーチ関連の設定 -->
+    <string name="settings_ai_comment_style">AI Comment Style</string>
+    <string name="settings_ai_comment_style_desc">Select style of AI comments</string>
+
+    <string name="settings_ai_comment_dialog_title">Select Comment Style</string>
+    <string name="settings_ai_comment_style_friendly">Friendly</string>
+    <string name="settings_ai_comment_style_motivational">Motivational</string>
+    <string name="settings_ai_comment_style_reflective">Reflective</string>
+
+    <string name="settings_ai_comment_frequency">AI Comment Frequency</string>
+    <string name="settings_ai_comment_frequency_desc">Set how often to receive AI comments</string>
+
+    <string name="settings_ai_frequency_dialog_title">Select Comment Frequency</string>
+    <string name="settings_ai_comment_frequency_high">Frequently</string>
+    <string name="settings_ai_comment_frequency_medium">Occasionally</string>
+    <string name="settings_ai_comment_frequency_low">Rarely</string>
+
+    <!-- 4. アプリのテーマと外観 -->
+    <string name="settings_theme_mode">Theme Mode</string>
+    <string name="settings_theme_mode_desc">Choose Light, Dark or System default</string>
+
+    <string name="settings_theme_mode_dialog_title">Select Theme Mode</string>
+    <string name="settings_theme_mode_light">Light</string>
+    <string name="settings_theme_mode_dark">Dark</string>
+    <string name="settings_theme_mode_system">System Default</string>
+
+    <string name="settings_font_size">Font Size</string>
+    <string name="settings_font_size_desc">Adjust the app’s font size</string>
+
+    <string name="settings_font_size_dialog_title">Select Font Size</string>
+    <string name="settings_font_size_small">Small</string>
+    <string name="settings_font_size_medium">Medium</string>
+    <string name="settings_font_size_large">Large</string>
+
+    <string name="settings_color_theme">Color Theme</string>
+    <string name="settings_color_theme_desc">Select app color theme</string>
+
+    <string name="settings_color_theme_dialog_title">Select Color Theme</string>
+    <string name="settings_color_theme_blue">Pastel Blue</string>
+    <string name="settings_color_theme_mint">Pastel Mint</string>
+    <string name="settings_color_theme_pink">Pastel Pink</string>
+
+    <!-- 5. データとバックアップ -->
+    <string name="settings_data_backup">Data Backup</string>
+    <string name="settings_data_backup_desc">Save your data to the cloud</string>
+    <string name="settings_data_backup_warning">※Backups will be kept for 7 days</string>
+
+    <string name="settings_data_restore">Data Restore</string>
+    <string name="settings_data_restore_desc">Restore your data from the cloud</string>
+
+    <string name="settings_data_reset">Reset Data</string>
+    <string name="settings_data_reset_desc">Clear all your app data</string>
+
+    <string name="settings_data_sync">Sync Settings</string>
+    <string name="settings_data_sync_desc">Configure data synchronization</string>
+
+    <string name="settings_sync_data_title">Data Synchronization</string>
+    <string name="settings_sync_data_auto_backup">Enable Automatic Backup</string>
+    <string name="settings_sync_data_backup_frequency">Backup Frequency</string>
+    <string name="settings_sync_data_backup_frequency_desc">Select how often to automatically back up your data</string>
+    <string name="settings_sync_data_last_sync">Last Sync Time</string>
+    <string name="settings_sync_data_manual_sync">Sync Now</string>
+    <string name="settings_sync_data_manual_sync_desc">Tap to back up and restore your data immediately</string>
+    <string name="settings_sync_data_frequency_daily">Daily</string>
+    <string name="settings_sync_data_frequency_weekly">Weekly</string>
+    <string name="settings_sync_data_frequency_monthly">Monthly</string>
+
+    <!-- 6. プレミアム＆広告関連 -->
+    <string name="settings_premium_upgrade">Upgrade to Premium</string>
+    <string name="settings_premium_upgrade_desc">Remove ads and unlock features</string>
+
+    <string name="settings_premium_upgrade_dialog_title">Upgrade to Premium</string>
+    <string name="settings_premium_upgrade_dialog_desc_locked_feature">This feature is available for Premium users only.</string>
+    <string name="settings_premium_upgrade_dialog_button">Upgrade Now</string>
+
+    <string name="settings_premium_upgrade_title">Upgrade to Premium</string>
+    <string name="settings_premium_upgrade_msg">Unlock your full wellness experience with all premium features.</string>
+    <string name="settings_premium_upgrade_cancel">You can cancel anytime from your Play Store account.</string>
+
+    <string name="settings_premium_upgrade_monthly">Monthly</string>
+    <string name="settings_premium_upgrade_yearly">Yearly</string>
+
+    <string name="settings_premium_upgrade_benefit1_title">No Ads, Just Focus</string>
+    <string name="settings_premium_upgrade_benefit1_desc">Enjoy a clean and distraction-free experience with all ads removed.</string>
+
+    <string name="settings_premium_upgrade_benefit2_title">Smarter AI with GPT-4.1</string>
+    <string name="settings_premium_upgrade_benefit2_desc">Receive deeper, more personalized coaching powered by GPT-4.1.</string>
+
+    <string name="settings_premium_upgrade_benefit3_title">Edit Emotions Anytime</string>
+    <string name="settings_premium_upgrade_benefit3_desc">Update your mood entries up to 3 times a day when your feelings change.</string>
+
+    <string name="settings_premium_upgrade_benefit4_title">Customize Emotion Icons</string>
+    <string name="settings_premium_upgrade_benefit4_desc">Personalize how your emotions look with your favorite icons and colors.</string>
+
+    <string name="settings_premium_upgrade_benefit5_title">Control AI Coaching Style</string>
+    <string name="settings_premium_upgrade_benefit5_desc">Choose the tone and frequency of AI messages that suit your vibe.</string>
+
+    <string name="settings_premium_upgrade_benefit6_title">Backup &amp; Sync</string>
+    <string name="settings_premium_upgrade_benefit6_desc">Securely back up your data and sync across devices with ease.</string>
+
+    <string name="settings_subscription_status">Subscription Status</string>
+    <string name="settings_subscription_status_premium_active">Premium Active</string>
+    <string name="settings_subscription_status_free_plan">Free Plan</string>
+
+    <string name="settings_manage_subscription">Manage Subscription</string>
+    <string name="settings_manage_subscription_desc">Manage your subscription in the Play Store</string>
+
+    <!-- 7. その他 -->
+    <string name="settings_open_source_licenses">Open Source Licenses</string>
+    <string name="settings_open_source_licenses_desc">View third-party open source licenses used in this app</string>
+
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_privacy_policy_desc">View CalmRoutine’s privacy policy</string>
+
+    <string name="settings_version_info">Version Info</string>
+    <string name="settings_version_info_desc">App version : %1$s</string>
+
+    <string name="settings_feedback">Send Feedback</string>
+    <string name="settings_feedback_desc">Contact us or send feedback</string>
+
+    <string name="toast_fail_login">Login failed. Please try again.</string>
+    <string name="toast_fail_logout">Logout failed. Please try again.</string>
+    <string name="toast_fail_save_mood">Failed to save your mood. Please try again.</string>
+    <string name="toast_fail_backup">Backup failed. Please try again.</string>
+    <string name="toast_fail_restore">Restore failed. Please try again.</string>
+    <string name="toast_fail_reset_data">Reset failed. Please try again.</string>
+    <string name="toast_fail_sync_data">Sync failed. Please try again.</string>
+    <string name="toast_success_login">You’re logged in.</string>
+    <string name="toast_success_logout">You have logged out successfully.</string>
+    <string name="toast_success_save_mood">Your mood has been saved successfully!</string>
+    <string name="toast_success_save_profile">Profile saved successfully.</string>
+    <string name="toast_success_backup">Backup completed successfully.</string>
+    <string name="toast_success_restore">Restore completed! Restarting the app to apply changes.</string>
+    <string name="toast_success_reset_data">Your data has been cleared and reset. Starting fresh 🌱</string>
+    <string name="toast_success_sync_data">Sync completed! Your data is now up to date.</string>
+    <string name="toast_mood_save_limit">Mood edit limit reached. Try again tomorrow 🌿</string>
+
+    <string name="dialog_msg_error_network">Please check your internet connection.</string>
+
+    <string name="dialog_title_logout">Take a short break? 🌙</string>
+    <string name="dialog_msg_logout">Logging out will sign you out of your CalmRoutine journey.\nDon’t worry, your routines and records are safe.</string>
+    <string name="dialog_button_confirm_logout">Stay signed in</string>
+    <string name="dialog_button_dismiss_logout">Yes, log me out</string>
+
+    <string name="dialog_title_reset_data">Time to refresh? 🌿</string>
+    <string name="dialog_msg_reset_data">Clearing your data will start you fresh on your CalmRoutine journey.\nBut don’t worry — your well-being is always here to stay.</string>
+    <string name="dialog_button_confirm_reset_data">Maybe Later</string>
+    <string name="dialog_button_dismiss_reset_data">Refresh Now</string>
+
+    <string name="dialog_title_restore">Restore Your Past Routine? 🕊️</string>
+    <string name="dialog_msg_restore">Restoring will replace your current records with the backup. Make sure you’re ready before continuing 💾</string>
+    <string name="dialog_button_confirm_restore">Not Now</string>
+    <string name="dialog_button_dismiss_restore">Restore Now</string>
+
+    <string name="dialog_title_notification_denied">Missing a gentle nudge? 🔔</string>
+    <string name="dialog_msg_notification_denied">We’d love to remind you to care for yourself.\nBut notifications are currently turned off.\nLet’s head to settings and gently turn them back on.</string>
+    <string name="dialog_button_confirm_notification_denied">Go to Settings</string>
+    <string name="dialog_button_dismiss_notification_denied">Maybe later</string>
+
+    <string name="dialog_title_exact_alarm_denied">Right Time, Right Reminder ⏰</string>
+    <string name="dialog_msg_exact_alarm_denied">To gently nudge you at just the right moment,\nCalmRoutine needs permission to set precise reminders.\nLet’s visit settings and make it happen 🌙</string>
+    <string name="dialog_button_confirm_exact_alarm_denied">Allow Precise Reminders</string>
+    <string name="dialog_button_dismiss_exact_alarm_denied">Not Now</string>
+
+    <string name="dialog_title_battery_optimization">Keep Calm &amp; Stay Energized ⚡</string>
+    <string name="dialog_msg_battery_optimization">To make sure CalmRoutine can gently remind you on time,\nplease disable battery optimization for this app.\nShall we open the settings now?</string>
+    <string name="dialog_button_confirm_battery_optimization">Open Settings</string>
+    <string name="dialog_button_dismiss_battery_optimization">Maybe Later</string>
+
+    <string name="dialog_title_feedback">Your Voice Matters 💌</string>
+    <string name="dialog_msg_feedback">We’d love to hear what’s on your mind.\nReady to send us a gentle message?</string>
+    <string name="dialog_button_confirm_feedback">Send Feedback</string>
+    <string name="dialog_button_dismiss_feedback">Maybe Later</string>
+
+    <string name="dialog_title_ads_save_mood">Watch a short ad 🌟</string>
+    <string name="dialog_msg_ads_save_mood">To save today’s mood, please watch a short ad. It only takes a moment and helps us keep CalmRoutine free for everyone 🌿</string>
+    <string name="dialog_button_confirm_ads_save_mood">Watch Ad</string>
+
+    <string name="dialog_title_force_update">A gentle nudge ✨</string>
+    <string name="dialog_msg_force_update">We’ve polished a few things to make your CalmRoutine even smoother.\nPlease update to continue your journey.</string>
+    <string name="dialog_button_confirm_force_update">Update now</string>
+
+    <string name="dialog_title_unsaved_profile">Before You Go ✋</string>
+    <string name="dialog_msg_unsaved_profile">Looks like you’ve made some changes.\nSave before leaving?</string>
+    <string name="dialog_button_confirm_unsaved_profile">Save and Exit</string>
+    <string name="dialog_button_dismiss_unsaved_profile">Discard</string>
+</resources>

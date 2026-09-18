@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">CalmRoutine</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_loading">Загрузка</string>
+    <string name="common_add">Добавить</string>
+    <string name="common_undo">Отменить</string>
+    <string name="common_save">Сохранить</string>
+
+    <!-- Экран входа -->
+    <string name="login_login">Войти</string>
+
+    <!-- Главный экран -->
+    <string name="home_title">Привет 👋</string>
+
+    <!-- Рутина на сегодня -->
+    <string name="home_today_routine_title">Рутина на сегодня</string>
+    <string name="home_today_routine_summary">%1$d из %2$d рутин выполнено</string>
+    <string name="home_today_routine_incomplete">Невыполненные рутины</string>
+
+    <!-- Настроение сегодня -->
+    <string name="home_today_mood_title">Настроение сегодня</string>
+    <string name="home_today_mood_prompt">Вы ещё не записали своё настроение сегодня.</string>
+    <string name="home_today_mood_question">Как вы себя чувствуете сегодня?</string>
+    <string name="home_today_mood_record">Записать настроение</string>
+
+    <!-- Последние записи настроения -->
+    <string name="home_recent_moods_title">Последние настроения</string>
+    <string name="home_recent_moods_view_all">Посмотреть все</string>
+    <string name="home_recent_moods_not_yet">Пока нет записей о настроении.</string>
+
+    <!-- Экран рутины -->
+    <string name="routine_title">Рутина на сегодня</string>
+    <string name="routine_completion_text">%1$d / %2$d рутин выполнено (%3$d%%)</string>
+    <string name="routine_empty_hint">Рутин пока нет. Добавьте новую!</string>
+    <string name="routine_add_title">Добавить новую рутину</string>
+    <string name="routine_add_hint">Введите название рутины</string>
+    <string name="routine_add">Добавить</string>
+    <string name="routine_edit_hint">Редактировать название рутины</string>
+    <string name="routine_deleted">Рутина удалена</string>
+
+    <!-- Экран настроения -->
+    <string name="mood_title">Как вы себя чувствуете сегодня?</string>
+    <string name="mood_memo_hint">Не стесняйтесь писать о своём дне, настроении или мыслях</string>
+    <string name="mood_memo_placeholder">Пишите всё, что хотите...</string>
+    <string name="mood_ai_comment_title">Комментарий ИИ</string>
+    <string name="mood_loading">Загрузка...</string>
+    <string name="mood_comment_error">Не удалось получить комментарий ИИ 😢</string>
+    <string name="mood_save_ads_loading">Подготавливаем ваш момент... 🌿</string>
+
+    <string name="mood_add_custom_mood_title">Добавить свой эмодзи</string>
+    <string name="mood_add_custom_mood_emoji_label">Эмодзи</string>
+
+    <!-- Экран истории настроений -->
+    <string name="mood_history_title">История настроений</string>
+    <string name="mood_history_no_records">Записей о настроении не найдено.</string>
+    <string name="mood_history_date_format">%1$s</string> <!-- Например: 2025-06-30 -->
+    <string name="mood_history_ai_comment_label">Комментарий ИИ:</string>
+    <string name="mood_history_memo_label">Ваша заметка:</string>
+
+    <!-- Экран настроек -->
+    <!-- 1. Учётная запись и аутентификация -->
+    <string name="settings_logout">Выйти</string>
+    <string name="settings_logout_desc">Выйти из вашей учётной записи</string>
+
+    <string name="settings_edit_profile">Редактировать профиль</string>
+    <string name="settings_edit_profile_desc">Обновите ваш никнейм, пол, дату рождения и интересы</string>
+
+    <string name="settings_edit_profile_title">Редактировать профиль</string>
+    <string name="settings_edit_profile_email_label">Электронная почта</string>
+    <string name="settings_edit_profile_nickname_label">Никнейм</string>
+    <string name="settings_edit_profile_gender_label">Пол</string>
+    <string name="settings_edit_profile_birthdate_label">Дата рождения</string>
+    <string name="settings_edit_profile_interest_label">Интересы</string>
+    <string name="settings_edit_profile_interest_hint">Введите текст и нажмите Enter...</string>
+    <string name="settings_edit_profile_save_button">Сохранить</string>
+
+    <string name="settings_edit_profile_gender_male">Мужской</string>
+    <string name="settings_edit_profile_gender_female">Женский</string>
+    <string name="settings_edit_profile_gender_unspecified">Не указано</string>
+
+    <!-- 2. Настройки уведомлений -->
+    <string name="settings_push_notifications">Push-уведомления</string>
+    <string name="settings_push_notifications_desc">Включить или отключить уведомления</string>
+
+    <string name="settings_notification_time">Время уведомления</string>
+    <string name="settings_notification_time_desc">Выберите предпочитаемое время для напоминаний</string>
+
+    <string name="settings_notification_type">Тип уведомления</string>
+    <string name="settings_notification_type_desc">Выберите типы уведомлений</string>
+
+    <string name="settings_notification_type_dialog_title">Выберите типы уведомлений</string>
+    <string name="settings_notification_type_routine">Напоминания о рутине</string>
+    <string name="settings_notification_type_mood">Проверка настроения</string>
+    <string name="settings_notification_type_ai">Советы AI-тренера</string>
+
+    <!-- Сообщения уведомлений -->
+    <string name="notification_title_routine_01">Сохраняйте свой ритм 🌅</string>
+    <string name="notification_msg_routine_01">Не забудьте проверить вашу сегодняшнюю рутину.</string>
+
+    <string name="notification_title_routine_02">Оставайтесь на плаву 🧭</string>
+    <string name="notification_msg_routine_02">Маленькая рутина помогает держать день под контролем.</string>
+
+    <string name="notification_title_routine_03">Шаг за шагом 👣</string>
+    <string name="notification_msg_routine_03">Ваш спокойный ритм важен — продолжайте в том же духе.</string>
+
+    <string name="notification_title_routine_04">Момент для вас 🕊️</string>
+    <string name="notification_msg_routine_04">Пусть ваши привычки позаботятся обо всём остальном.</string>
+
+    <string name="notification_title_routine_05">Проверьте свой ритм 💧</string>
+    <string name="notification_msg_routine_05">Давайте сохранять этот импульс, аккуратно и плавно.</string>
+
+    <string name="notification_title_routine_06">Дышите и начинайте 🌬️</string>
+    <string name="notification_msg_routine_06">Ваша рутина готова, когда вы готовы.</string>
+
+    <string name="notification_title_routine_07">Якорь вашего дня ⚓</string>
+    <string name="notification_msg_routine_07">Малая привычка заземляет ум.</string>
+
+    <string name="notification_title_routine_08">Спокойный прогресс важен 🌿</string>
+    <string name="notification_msg_routine_08">Вы создаёте что-то прекрасное — шаг за шагом.</string>
+
+    <string name="notification_title_routine_09">Ваш нежный проводник здесь 💫</string>
+    <string name="notification_msg_routine_09">Ваши ежедневные шаги ждут вас.</string>
+
+    <string name="notification_title_routine_10">Маленькие ритуалы — большой мир ✨</string>
+    <string name="notification_msg_routine_10">Даже маленькие рутины имеют большое значение.</string>
+
+    <string name="notification_title_mood_01">Каково ваше сердце сегодня? 💛</string>
+    <string name="notification_msg_mood_01">Найдите момент, чтобы проверить себя.</string>
+
+    <string name="notification_title_mood_02">Только вы и этот момент 🌿</string>
+    <string name="notification_msg_mood_02">Приостановитесь и мягко осознайте свои чувства.</string>
+
+    <string name="notification_title_mood_03">Маленькие чувства важны 🌙</string>
+    <string name="notification_msg_mood_03">Что бы вы ни чувствовали — это имеет значение.</string>
+
+    <string name="notification_title_mood_04">Нежная проверка 🫧</string>
+    <string name="notification_msg_mood_04">Ваше настроение всегда стоит того, чтобы его заметить.</string>
+
+    <string name="notification_title_mood_05">Привет, внутренний настрой ☁️</string>
+    <string name="notification_msg_mood_05">Как сегодня ваше внутреннее небо?</string>
+
+    <string name="notification_title_mood_06">Прими и позволь быть 🌊</string>
+    <string name="notification_msg_mood_06">Это нормально — чувствовать то, что вы чувствуете.</string>
+
+    <string name="notification_title_mood_07">Вдох осознанности 🌬️</string>
+    <string name="notification_msg_mood_07">Вдох-выдох — и мягко проверьте своё настроение.</string>
+
+    <string name="notification_title_mood_08">Замедлитесь и послушайте 🎧</string>
+    <string name="notification_msg_mood_08">Ваши эмоции хотят что-то сказать.</string>
+
+    <string name="notification_title_mood_09">Будьте спокойны и добры 🤲</string>
+    <string name="notification_msg_mood_09">Дайте себе пространство чувствовать без осуждения.</string>
+
+    <string name="notification_title_mood_10">Вы в безопасности, чтобы чувствовать 🌌</string>
+    <string name="notification_msg_mood_10">Этот момент только для вас. Что внутри?</string>
+
+    <!-- 3. Настройки AI-тренера -->
+    <string name="settings_ai_comment_style">Стиль комментариев ИИ</string>
+    <string name="settings_ai_comment_style_desc">Выберите стиль комментариев ИИ</string>
+
+    <string name="settings_ai_comment_dialog_title">Выберите стиль комментариев</string>
+    <string name="settings_ai_comment_style_friendly">Дружелюбный</string>
+    <string name="settings_ai_comment_style_motivational">Мотивирующий</string>
+    <string name="settings_ai_comment_style_reflective">Рефлексивный</string>
+
+    <string name="settings_ai_comment_frequency">Частота комментариев ИИ</string>
+    <string name="settings_ai_comment_frequency_desc">Настройте, как часто получать комментарии ИИ</string>
+
+    <string name="settings_ai_frequency_dialog_title">Выберите частоту комментариев</string>
+    <string name="settings_ai_comment_frequency_high">Часто</string>
+    <string name="settings_ai_comment_frequency_medium">Иногда</string>
+    <string name="settings_ai_comment_frequency_low">Редко</string>
+
+    <!-- 4. Тема и внешний вид приложения -->
+    <string name="settings_theme_mode">Режим темы</string>
+    <string name="settings_theme_mode_desc">Выберите светлый, тёмный или системный режим</string>
+
+    <string name="settings_theme_mode_dialog_title">Выберите режим темы</string>
+    <string name="settings_theme_mode_light">Светлый</string>
+    <string name="settings_theme_mode_dark">Тёмный</string>
+    <string name="settings_theme_mode_system">Системный по умолчанию</string>
+
+    <string name="settings_font_size">Размер шрифта</string>
+    <string name="settings_font_size_desc">Настройте размер шрифта в приложении</string>
+
+    <string name="settings_font_size_dialog_title">Выберите размер шрифта</string>
+    <string name="settings_font_size_small">Маленький</string>
+    <string name="settings_font_size_medium">Средний</string>
+    <string name="settings_font_size_large">Большой</string>
+
+    <string name="settings_color_theme">Цветовая тема</string>
+    <string name="settings_color_theme_desc">Выберите цветовую тему приложения</string>
+
+    <string name="settings_color_theme_dialog_title">Выберите цветовую тему</string>
+    <string name="settings_color_theme_blue">Пастельный синий</string>
+    <string name="settings_color_theme_mint">Пастельный мятный</string>
+    <string name="settings_color_theme_pink">Пастельный розовый</string>
+
+    <!-- 5. Данные и резервное копирование -->
+    <string name="settings_data_backup">Резервное копирование данных</string>
+    <string name="settings_data_backup_desc">Сохраните данные в облаке</string>
+    <string name="settings_data_backup_warning">※ Резервные копии хранятся 7 дней</string>
+
+    <string name="settings_data_restore">Восстановление данных</string>
+    <string name="settings_data_restore_desc">Восстановите данные из облака</string>
+
+    <string name="settings_data_reset">Сброс данных</string>
+    <string name="settings_data_reset_desc">Очистить все данные приложения</string>
+
+    <string name="settings_data_sync">Настройки синхронизации</string>
+    <string name="settings_data_sync_desc">Настройте синхронизацию данных</string>
+
+    <string name="settings_sync_data_title">Синхронизация данных</string>
+    <string name="settings_sync_data_auto_backup">Включить автоматическое резервное копирование</string>
+    <string name="settings_sync_data_backup_frequency">Частота резервного копирования</string>
+    <string name="settings_sync_data_backup_frequency_desc">Выберите, как часто автоматически создавать резервные копии данных</string>
+    <string name="settings_sync_data_last_sync">Последнее время синхронизации</string>
+    <string name="settings_sync_data_manual_sync">Синхронизировать сейчас</string>
+    <string name="settings_sync_data_manual_sync_desc">Нажмите, чтобы сразу выполнить резервное копирование и восстановление данных</string>
+    <string name="settings_sync_data_frequency_daily">Ежедневно</string>
+    <string name="settings_sync_data_frequency_weekly">Еженедельно</string>
+    <string name="settings_sync_data_frequency_monthly">Ежемесячно</string>
+
+    <!-- 6. Премиум и реклама -->
+    <string name="settings_premium_upgrade">Обновить до Premium</string>
+    <string name="settings_premium_upgrade_desc">Уберите рекламу и разблокируйте функции</string>
+
+    <string name="settings_premium_upgrade_dialog_title">Обновить до Premium</string>
+    <string name="settings_premium_upgrade_dialog_desc_locked_feature">Эта функция доступна только для пользователей Premium.</string>
+    <string name="settings_premium_upgrade_dialog_button">Обновить сейчас</string>
+
+    <string name="settings_premium_upgrade_title">Обновить до Premium</string>
+    <string name="settings_premium_upgrade_msg">Откройте для себя полный опыт заботы о себе с всеми премиальными функциями.</string>
+    <string name="settings_premium_upgrade_cancel">Вы можете отменить подписку в любое время через свой аккаунт Play Store.</string>
+
+    <string name="settings_premium_upgrade_monthly">Ежемесячно</string>
+    <string name="settings_premium_upgrade_yearly">Ежегодно</string>
+
+    <string name="settings_premium_upgrade_benefit1_title">Никакой рекламы, только концентрация</string>
+    <string name="settings_premium_upgrade_benefit1_desc">Наслаждайтесь чистым и свободным от отвлечений интерфейсом без рекламы.</string>
+
+    <string name="settings_premium_upgrade_benefit2_title">Умный ИИ с GPT-4.1</string>
+    <string name="settings_premium_upgrade_benefit2_desc">Получайте более глубокое и персонализированное коучинг с GPT-4.1.</string>
+
+    <string name="settings_premium_upgrade_benefit3_title">Редактируйте эмоции в любое время</string>
+    <string name="settings_premium_upgrade_benefit3_desc">Обновляйте записи о настроении до 3 раз в день при изменении чувств.</string>
+
+    <string name="settings_premium_upgrade_benefit4_title">Настраиваемые иконки эмоций</string>
+    <string name="settings_premium_upgrade_benefit4_desc">Персонализируйте внешний вид эмоций с любимыми иконками и цветами.</string>
+
+    <string name="settings_premium_upgrade_benefit5_title">Контроль стиля коучинга ИИ</string>
+    <string name="settings_premium_upgrade_benefit5_desc">Выбирайте тон и частоту сообщений ИИ, подходящие вашему настроению.</string>
+
+    <string name="settings_premium_upgrade_benefit6_title">Резервное копирование и синхронизация</string>
+    <string name="settings_premium_upgrade_benefit6_desc">Надёжно создавайте резервные копии данных и синхронизируйте их между устройствами.</string>
+
+    <string name="settings_subscription_status">Статус подписки</string>
+    <string name="settings_subscription_status_premium_active">Premium активен</string>
+    <string name="settings_subscription_status_free_plan">Бесплатный план</string>
+
+    <string name="settings_manage_subscription">Управление подпиской</string>
+    <string name="settings_manage_subscription_desc">Управляйте подпиской в Play Store</string>
+
+    <!-- 7. Прочее -->
+    <string name="settings_open_source_licenses">Лицензии с открытым исходным кодом</string>
+    <string name="settings_open_source_licenses_desc">Просмотр лицензий стороннего открытого ПО, используемого в этом приложении</string>
+
+    <string name="settings_privacy_policy">Политика конфиденциальности</string>
+    <string name="settings_privacy_policy_desc">Просмотр политики конфиденциальности CalmRoutine</string>
+
+    <string name="settings_version_info">Информация о версии</string>
+    <string name="settings_version_info_desc">Версия приложения: %1$s</string>
+
+    <string name="settings_feedback">Отправить отзыв</string>
+    <string name="settings_feedback_desc">Свяжитесь с нами или отправьте отзыв</string>
+
+    <string name="toast_fail_login">Ошибка входа. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_fail_logout">Ошибка выхода. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_fail_save_mood">Не удалось сохранить ваше настроение. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_fail_backup">Ошибка резервного копирования. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_fail_restore">Ошибка восстановления. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_fail_reset_data">Ошибка сброса данных. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_fail_sync_data">Ошибка синхронизации. Пожалуйста, попробуйте снова.</string>
+    <string name="toast_success_login">Вы вошли в систему.</string>
+    <string name="toast_success_logout">Вы успешно вышли из системы.</string>
+    <string name="toast_success_save_mood">Ваше настроение успешно сохранено!</string>
+    <string name="toast_success_save_profile">Профиль успешно сохранён.</string>
+    <string name="toast_success_backup">Резервное копирование успешно завершено.</string>
+    <string name="toast_success_restore">Восстановление завершено! Перезапуск приложения для применения изменений.</string>
+    <string name="toast_success_reset_data">Ваши данные очищены и сброшены. Начинаем заново 🌱</string>
+    <string name="toast_success_sync_data">Синхронизация завершена! Ваши данные обновлены.</string>
+    <string name="toast_mood_save_limit">Достигнут лимит редактирования настроения. Попробуйте завтра 🌿</string>
+
+    <string name="dialog_msg_error_network">Пожалуйста, проверьте ваше интернет-соединение.</string>
+
+    <string name="dialog_title_logout">Сделаем небольшой перерыв? 🌙</string>
+    <string name="dialog_msg_logout">Выход из системы завершит ваше путешествие с CalmRoutine.\nНо не волнуйтесь, ваши рутины и записи в безопасности.</string>
+    <string name="dialog_button_confirm_logout">Остаться в системе</string>
+    <string name="dialog_button_dismiss_logout">Да, выйти</string>
+
+    <string name="dialog_title_reset_data">Время обновиться? 🌿</string>
+    <string name="dialog_msg_reset_data">Очистка данных начнёт ваше новое путешествие с CalmRoutine.\nНо не переживайте — ваше благополучие всегда с вами.</string>
+    <string name="dialog_button_confirm_reset_data">Позже</string>
+    <string name="dialog_button_dismiss_reset_data">Обновить сейчас</string>
+
+    <string name="dialog_title_restore">Восстановить вашу прошлую рутину? 🕊️</string>
+    <string name="dialog_msg_restore">Восстановление заменит текущие записи резервной копией. Убедитесь, что вы готовы продолжить 💾</string>
+    <string name="dialog_button_confirm_restore">Не сейчас</string>
+    <string name="dialog_button_dismiss_restore">Восстановить сейчас</string>
+
+    <string name="dialog_title_notification_denied">Не хватает нежного напоминания? 🔔</string>
+    <string name="dialog_msg_notification_denied">Мы бы хотели напомнить вам заботиться о себе.\nНо уведомления сейчас отключены.\nДавайте перейдём в настройки и аккуратно включим их обратно.</string>
+    <string name="dialog_button_confirm_notification_denied">Перейти в настройки</string>
+    <string name="dialog_button_dismiss_notification_denied">Позже</string>
+
+    <string name="dialog_title_exact_alarm_denied">Время и напоминание точно в срок ⏰</string>
+    <string name="dialog_msg_exact_alarm_denied">Чтобы аккуратно напомнить вам в нужный момент,\nCalmRoutine нужно разрешение на точные напоминания.\nДавайте перейдём в настройки и сделаем это возможным 🌙</string>
+    <string name="dialog_button_confirm_exact_alarm_denied">Разрешить точные напоминания</string>
+    <string name="dialog_button_dismiss_exact_alarm_denied">Не сейчас</string>
+
+    <string name="dialog_title_battery_optimization">Оставайтесь спокойны и полны энергии ⚡</string>
+    <string name="dialog_msg_battery_optimization">Чтобы CalmRoutine мог вовремя аккуратно напоминать вам,\nпожалуйста, отключите оптимизацию батареи для этого приложения.\nОткрыть настройки сейчас?</string>
+    <string name="dialog_button_confirm_battery_optimization">Открыть настройки</string>
+    <string name="dialog_button_dismiss_battery_optimization">Позже</string>
+
+    <string name="dialog_title_feedback">Ваш голос важен 💌</string>
+    <string name="dialog_msg_feedback">Мы бы хотели услышать, что у вас на уме.\nГотовы отправить нам нежное сообщение?</string>
+    <string name="dialog_button_confirm_feedback">Отправить отзыв</string>
+    <string name="dialog_button_dismiss_feedback">Позже</string>
+
+    <string name="dialog_title_ads_save_mood">Посмотрите короткую рекламу 🌟</string>
+    <string name="dialog_msg_ads_save_mood">Чтобы сохранить настроение на сегодня, пожалуйста, посмотрите короткую рекламу. Это займёт немного времени и поможет нам сохранить CalmRoutine бесплатным для всех 🌿</string>
+    <string name="dialog_button_confirm_ads_save_mood">Смотреть рекламу</string>
+
+    <string name="dialog_title_force_update">Нежное напоминание ✨</string>
+    <string name="dialog_msg_force_update">Мы улучшили некоторые моменты, чтобы сделать CalmRoutine ещё лучше.\nПожалуйста, обновите приложение, чтобы продолжить своё путешествие.</string>
+    <string name="dialog_button_confirm_force_update">Обновить сейчас</string>
+
+    <string name="dialog_title_unsaved_profile">Сохранить изменения? ✋</string>
+    <string name="dialog_msg_unsaved_profile">Вы внесли изменения.\nСохранить перед выходом?</string>
+    <string name="dialog_button_confirm_unsaved_profile">Сохранить и выйти</string>
+    <string name="dialog_button_dismiss_unsaved_profile">Отменить</string>
+</resources>

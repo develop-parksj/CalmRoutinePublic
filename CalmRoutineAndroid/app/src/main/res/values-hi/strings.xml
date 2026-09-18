@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">CalmRoutine</string>
+
+    <string name="common_ok">ठीक है</string>
+    <string name="common_cancel">रद्द करें</string>
+    <string name="common_loading">लोड हो रहा है</string>
+    <string name="common_add">जोड़ें</string>
+    <string name="common_undo">पूर्ववत करें</string>
+    <string name="common_save">सहेजें</string>
+
+    <!-- लॉगिन स्क्रीन -->
+    <string name="login_login">लॉगिन करें</string>
+
+    <!-- होम स्क्रीन -->
+    <string name="home_title">नमस्ते 👋</string>
+
+    <!-- आज की दिनचर्या -->
+    <string name="home_today_routine_title">आज की दिनचर्या</string>
+    <string name="home_today_routine_summary">%1$d में से %2$d कार्य पूरे हुए</string>
+    <string name="home_today_routine_incomplete">अपूर्ण दिनचर्या</string>
+
+    <!-- आज का मूड -->
+    <string name="home_today_mood_title">आज का मूड</string>
+    <string name="home_today_mood_prompt">आपने आज अपना मूड दर्ज नहीं किया है।</string>
+    <string name="home_today_mood_question">आज आप कैसा महसूस कर रहे हैं?</string>
+    <string name="home_today_mood_record">मूड दर्ज करें</string>
+
+    <!-- हाल के मूड रिकॉर्ड -->
+    <string name="home_recent_moods_title">हाल के मूड</string>
+    <string name="home_recent_moods_view_all">सभी देखें</string>
+    <string name="home_recent_moods_not_yet">अभी तक कोई मूड रिकॉर्ड नहीं है।</string>
+
+    <!-- दिनचर्या स्क्रीन -->
+    <string name="routine_title">आज की दिनचर्या</string>
+    <string name="routine_completion_text">%1$d / %2$d कार्य पूरे (%3$d%%)</string>
+    <string name="routine_empty_hint">कोई दिनचर्या नहीं है। एक जोड़ें!</string>
+    <string name="routine_add_title">नई दिनचर्या जोड़ें</string>
+    <string name="routine_add_hint">दिनचर्या का शीर्षक लिखें</string>
+    <string name="routine_add">जोड़ें</string>
+    <string name="routine_edit_hint">दिनचर्या का नाम संपादित करें</string>
+    <string name="routine_deleted">दिनचर्या हटाई गई</string>
+
+    <!-- मूड स्क्रीन -->
+    <string name="mood_title">आज आप कैसा महसूस कर रहे हैं?</string>
+    <string name="mood_memo_hint">अपने दिन, मूड, या विचारों के बारे में कुछ भी लिखें</string>
+    <string name="mood_memo_placeholder">जो चाहें लिखें...</string>
+    <string name="mood_ai_comment_title">AI टिप्पणी</string>
+    <string name="mood_loading">लोड हो रहा है...</string>
+    <string name="mood_comment_error">AI टिप्पणी प्राप्त करने में विफल 😢</string>
+    <string name="mood_save_ads_loading">आपका पल तैयार किया जा रहा है... 🌿</string>
+
+    <string name="mood_add_custom_mood_title">कस्टम इमोजी जोड़ें</string>
+    <string name="mood_add_custom_mood_emoji_label">इमोजी</string>
+
+    <!-- मूड इतिहास स्क्रीन -->
+    <string name="mood_history_title">मूड इतिहास</string>
+    <string name="mood_history_no_records">कोई मूड रिकॉर्ड नहीं मिला।</string>
+    <string name="mood_history_date_format">%1$s</string> <!-- उदाहरण: 2025-06-30 -->
+    <string name="mood_history_ai_comment_label">AI टिप्पणी:</string>
+    <string name="mood_history_memo_label">आपकी नोट:</string>
+
+    <!-- सेटिंग्स स्क्रीन -->
+    <!-- 1. खाता और प्रमाणीकरण -->
+    <string name="settings_logout">लॉगआउट करें</string>
+    <string name="settings_logout_desc">अपने खाते से साइन आउट करें</string>
+
+    <string name="settings_edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="settings_edit_profile_desc">अपना उपनाम, लिंग, जन्मदिन और रुचियाँ अपडेट करें</string>
+
+    <string name="settings_edit_profile_title">प्रोफ़ाइल संपादित करें</string>
+    <string name="settings_edit_profile_email_label">ईमेल</string>
+    <string name="settings_edit_profile_nickname_label">उपनाम</string>
+    <string name="settings_edit_profile_gender_label">लिंग</string>
+    <string name="settings_edit_profile_birthdate_label">जन्मतिथि</string>
+    <string name="settings_edit_profile_interest_label">रुचियाँ</string>
+    <string name="settings_edit_profile_interest_hint">टाइप करें और एंटर दबाएँ...</string>
+    <string name="settings_edit_profile_save_button">सेव करें</string>
+
+    <string name="settings_edit_profile_gender_male">पुरुष</string>
+    <string name="settings_edit_profile_gender_female">महिला</string>
+    <string name="settings_edit_profile_gender_unspecified">निर्दिष्ट नहीं</string>
+
+    <!-- 2. अधिसूचना सेटिंग्स -->
+    <string name="settings_push_notifications">पुश सूचनाएँ</string>
+    <string name="settings_push_notifications_desc">सूचनाएँ चालू या बंद करें</string>
+
+    <string name="settings_notification_time">सूचना समय</string>
+    <string name="settings_notification_time_desc">अनुकूल समय चुनें जब आप रिमाइंडर प्राप्त करना चाहें</string>
+
+    <string name="settings_notification_type">सूचना प्रकार</string>
+    <string name="settings_notification_type_desc">सूचनाओं के प्रकार चुनें</string>
+
+    <string name="settings_notification_type_dialog_title">सूचना प्रकार चुनें</string>
+    <string name="settings_notification_type_routine">दिनचर्या रिमाइंडर</string>
+    <string name="settings_notification_type_mood">मूड चेक-इन</string>
+    <string name="settings_notification_type_ai">AI कोच टिप्स</string>
+
+    <!-- अधिसूचना संदेश -->
+    <string name="notification_title_routine_01">अपने प्रवाह को बनाए रखें 🌅</string>
+    <string name="notification_msg_routine_01">आज की दिनचर्या देखना न भूलें।</string>
+
+    <string name="notification_title_routine_02">धीरे-धीरे मार्ग पर रहें 🧭</string>
+    <string name="notification_msg_routine_02">एक छोटी दिनचर्या भी दिन को स्थिर बनाती है।</string>
+
+    <string name="notification_title_routine_03">एक कदम एक समय पर 👣</string>
+    <string name="notification_msg_routine_03">आपकी शांत लय मायने रखती है — इसे बनाए रखें।</string>
+
+    <string name="notification_title_routine_04">आपके लिए एक पल 🕊️</string>
+    <string name="notification_msg_routine_04">अपनी आदतों को बाकी का ख्याल रखने दें।</string>
+
+    <string name="notification_title_routine_05">अपने प्रवाह के साथ जुड़ें 💧</string>
+    <string name="notification_msg_routine_05">आइए इस प्रवाह को कोमलता से बनाए रखें।</string>
+
+    <string name="notification_title_routine_06">साँस लें और शुरू करें 🌬️</string>
+    <string name="notification_msg_routine_06">जब आप तैयार हों, आपकी दिनचर्या भी तैयार है।</string>
+
+    <string name="notification_title_routine_07">अपने दिन को स्थिर करें ⚓</string>
+    <string name="notification_msg_routine_07">एक छोटी सी आदत मन को संतुलित करती है।</string>
+
+    <string name="notification_title_routine_08">शांत प्रगति मायने रखती है 🌿</string>
+    <string name="notification_msg_routine_08">आप कुछ सुंदर बना रहे हैं — धीरे-धीरे, हर कदम पर।</string>
+
+    <string name="notification_title_routine_09">आपका कोमल मार्गदर्शक यहाँ है 💫</string>
+    <string name="notification_msg_routine_09">आपकी दैनिक गतिविधियाँ आपकी प्रतीक्षा कर रही हैं।</string>
+
+    <string name="notification_title_routine_10">छोटे अनुष्ठान, बड़ी शांति ✨</string>
+    <string name="notification_msg_routine_10">छोटी दिनचर्याओं में भी गहरा अर्थ होता है।</string>
+
+    <string name="notification_title_mood_01">आज दिल कैसा है? 💛</string>
+    <string name="notification_msg_mood_01">अपने आप से जुड़ने के लिए एक क्षण निकालें।</string>
+
+    <string name="notification_title_mood_02">बस आप और यह पल 🌿</string>
+    <string name="notification_msg_mood_02">रुकें और धीरे से महसूस करें कि आप कैसा महसूस कर रहे हैं।</string>
+
+    <string name="notification_title_mood_03">छोटे भाव भी महत्वपूर्ण हैं 🌙</string>
+    <string name="notification_msg_mood_03">जो कुछ भी आप महसूस कर रहे हैं — वह वैध है।</string>
+
+    <string name="notification_title_mood_04">कोमल चेक-इन 🫧</string>
+    <string name="notification_msg_mood_04">आपका मूड हमेशा ध्यान देने योग्य है।</string>
+
+    <string name="notification_title_mood_05">नमस्ते, आंतरिक मौसम ☁️</string>
+    <string name="notification_msg_mood_05">आज आपका आकाश कैसा दिखता है?</string>
+
+    <string name="notification_title_mood_06">इसे महसूस करें, उसे रहने दें 🌊</string>
+    <string name="notification_msg_mood_06">जो भी आप महसूस कर रहे हैं, वह ठीक है।</string>
+
+    <string name="notification_title_mood_07">जागरूकता की एक साँस 🌬️</string>
+    <string name="notification_msg_mood_07">साँस लें, छोड़ें — और धीरे से अपना मूड जांचें।</string>
+
+    <string name="notification_title_mood_08">धीमा करें और सुनें 🎧</string>
+    <string name="notification_msg_mood_08">आपकी भावनाओं के पास कहने को कुछ है।</string>
+
+    <string name="notification_title_mood_09">स्थिर रहें, दयालु रहें 🤲</string>
+    <string name="notification_msg_mood_09">अपने आपको बिना निर्णय के महसूस करने की जगह दें।</string>
+
+    <string name="notification_title_mood_10">आप सुरक्षित हैं महसूस करने के लिए 🌌</string>
+    <string name="notification_msg_mood_10">यह पल सिर्फ आपके लिए है। अंदर क्या चल रहा है?</string>
+
+    <!-- 3. AI कोच सेटिंग्स -->
+    <string name="settings_ai_comment_style">AI टिप्पणी शैली</string>
+    <string name="settings_ai_comment_style_desc">AI टिप्पणियों की शैली चुनें</string>
+
+    <string name="settings_ai_comment_dialog_title">टिप्पणी शैली चुनें</string>
+    <string name="settings_ai_comment_style_friendly">दोस्ताना</string>
+    <string name="settings_ai_comment_style_motivational">प्रेरणादायक</string>
+    <string name="settings_ai_comment_style_reflective">विचारशील</string>
+
+    <string name="settings_ai_comment_frequency">AI टिप्पणी आवृत्ति</string>
+    <string name="settings_ai_comment_frequency_desc">AI टिप्पणियाँ कितनी बार प्राप्त करें यह सेट करें</string>
+
+    <string name="settings_ai_frequency_dialog_title">टिप्पणी आवृत्ति चुनें</string>
+    <string name="settings_ai_comment_frequency_high">अक्सर</string>
+    <string name="settings_ai_comment_frequency_medium">कभी-कभी</string>
+    <string name="settings_ai_comment_frequency_low">कभी-कभार</string>
+
+    <!-- 4. ऐप थीम और स्वरूप -->
+    <string name="settings_theme_mode">थीम मोड</string>
+    <string name="settings_theme_mode_desc">लाइट, डार्क या सिस्टम डिफॉल्ट चुनें</string>
+
+    <string name="settings_theme_mode_dialog_title">थीम मोड चुनें</string>
+    <string name="settings_theme_mode_light">लाइट</string>
+    <string name="settings_theme_mode_dark">डार्क</string>
+    <string name="settings_theme_mode_system">सिस्टम डिफॉल्ट</string>
+
+    <string name="settings_font_size">फ़ॉन्ट आकार</string>
+    <string name="settings_font_size_desc">ऐप का फ़ॉन्ट आकार समायोजित करें</string>
+
+    <string name="settings_font_size_dialog_title">फ़ॉन्ट आकार चुनें</string>
+    <string name="settings_font_size_small">छोटा</string>
+    <string name="settings_font_size_medium">मध्यम</string>
+    <string name="settings_font_size_large">बड़ा</string>
+
+    <string name="settings_color_theme">रंग थीम</string>
+    <string name="settings_color_theme_desc">ऐप की रंग योजना चुनें</string>
+
+    <string name="settings_color_theme_dialog_title">रंग थीम चुनें</string>
+    <string name="settings_color_theme_blue">पेस्टल नीला</string>
+    <string name="settings_color_theme_mint">पेस्टल मिंट</string>
+    <string name="settings_color_theme_pink">पेस्टल गुलाबी</string>
+
+    <!-- 5. डेटा और बैकअप -->
+    <string name="settings_data_backup">डेटा बैकअप</string>
+    <string name="settings_data_backup_desc">अपना डेटा क्लाउड में सहेजें</string>
+    <string name="settings_data_backup_warning">※बैकअप 7 दिनों तक संग्रहीत रहेगा</string>
+
+    <string name="settings_data_restore">डेटा पुनर्स्थापना</string>
+    <string name="settings_data_restore_desc">क्लाउड से अपना डेटा पुनर्स्थापित करें</string>
+
+    <string name="settings_data_reset">डेटा रीसेट करें</string>
+    <string name="settings_data_reset_desc">सभी ऐप डेटा हटाएँ</string>
+
+    <string name="settings_data_sync">सिंक सेटिंग्स</string>
+    <string name="settings_data_sync_desc">डेटा समन्वयन कॉन्फ़िगर करें</string>
+
+    <string name="settings_sync_data_title">डेटा समन्वयन</string>
+    <string name="settings_sync_data_auto_backup">स्वचालित बैकअप सक्षम करें</string>
+    <string name="settings_sync_data_backup_frequency">बैकअप की आवृत्ति</string>
+    <string name="settings_sync_data_backup_frequency_desc">आपका डेटा कितनी बार स्वचालित रूप से बैकअप होगा यह चुनें</string>
+    <string name="settings_sync_data_last_sync">अंतिम सिंक समय</string>
+    <string name="settings_sync_data_manual_sync">अब सिंक करें</string>
+    <string name="settings_sync_data_manual_sync_desc">अपने डेटा को तुरंत बैकअप और पुनर्स्थापित करने के लिए टैप करें</string>
+    <string name="settings_sync_data_frequency_daily">प्रतिदिन</string>
+    <string name="settings_sync_data_frequency_weekly">साप्ताहिक</string>
+    <string name="settings_sync_data_frequency_monthly">मासिक</string>
+
+    <!-- 6. प्रीमियम और विज्ञापन -->
+    <string name="settings_premium_upgrade">प्रीमियम में अपग्रेड करें</string>
+    <string name="settings_premium_upgrade_desc">विज्ञापन हटाएँ और विशेष सुविधाएँ अनलॉक करें</string>
+
+    <string name="settings_premium_upgrade_dialog_title">प्रीमियम में अपग्रेड करें</string>
+    <string name="settings_premium_upgrade_dialog_desc_locked_feature">यह सुविधा केवल प्रीमियम उपयोगकर्ताओं के लिए उपलब्ध है।</string>
+    <string name="settings_premium_upgrade_dialog_button">अभी अपग्रेड करें</string>
+
+    <string name="settings_premium_upgrade_title">प्रीमियम में अपग्रेड करें</string>
+    <string name="settings_premium_upgrade_msg">सभी प्रीमियम सुविधाओं के साथ अपनी वेलनेस यात्रा को पूरा करें।</string>
+    <string name="settings_premium_upgrade_cancel">आप कभी भी अपने Play Store खाते से रद्द कर सकते हैं।</string>
+
+    <string name="settings_premium_upgrade_monthly">मासिक</string>
+    <string name="settings_premium_upgrade_yearly">वार्षिक</string>
+
+    <string name="settings_premium_upgrade_benefit1_title">कोई विज्ञापन नहीं, बस ध्यान</string>
+    <string name="settings_premium_upgrade_benefit1_desc">सभी विज्ञापनों को हटाकर शांत और ध्यान केंद्रित अनुभव का आनंद लें।</string>
+
+    <string name="settings_premium_upgrade_benefit2_title">GPT-4.1 के साथ स्मार्ट AI</string>
+    <string name="settings_premium_upgrade_benefit2_desc">GPT-4.1 द्वारा संचालित, गहरे और अधिक व्यक्तिगत कोचिंग प्राप्त करें।</string>
+
+    <string name="settings_premium_upgrade_benefit3_title">कभी भी मूड संपादित करें</string>
+    <string name="settings_premium_upgrade_benefit3_desc">जब भावनाएँ बदलें तो दिन में तीन बार मूड प्रविष्टियाँ अपडेट करें।</string>
+
+    <string name="settings_premium_upgrade_benefit4_title">मूड आइकन अनुकूलित करें</string>
+    <string name="settings_premium_upgrade_benefit4_desc">अपने पसंदीदा आइकनों और रंगों के साथ अपनी भावनाओं को वैयक्तिकृत करें।</string>
+
+    <string name="settings_premium_upgrade_benefit5_title">AI कोचिंग शैली नियंत्रित करें</string>
+    <string name="settings_premium_upgrade_benefit5_desc">AI संदेशों की शैली और आवृत्ति चुनें जो आपकी ऊर्जा से मेल खाती हो।</string>
+
+    <string name="settings_premium_upgrade_benefit6_title">बैकअप और सिंक</string>
+    <string name="settings_premium_upgrade_benefit6_desc">अपने डेटा को सुरक्षित रूप से बैकअप करें और सभी उपकरणों पर आसानी से सिंक करें।</string>
+
+    <string name="settings_subscription_status">सदस्यता की स्थिति</string>
+    <string name="settings_subscription_status_premium_active">प्रीमियम सक्रिय</string>
+    <string name="settings_subscription_status_free_plan">मुफ्त योजना</string>
+
+    <string name="settings_manage_subscription">सदस्यता प्रबंधित करें</string>
+    <string name="settings_manage_subscription_desc">Play Store में अपनी सदस्यता प्रबंधित करें</string>
+
+    <!-- 7. अन्य -->
+    <string name="settings_open_source_licenses">ओपन सोर्स लाइसेंस</string>
+    <string name="settings_open_source_licenses_desc">इस ऐप में उपयोग किए गए तृतीय-पक्ष ओपन सोर्स लाइसेंस देखें</string>
+
+    <string name="settings_privacy_policy">गोपनीयता नीति</string>
+    <string name="settings_privacy_policy_desc">CalmRoutine की गोपनीयता नीति देखें</string>
+
+    <string name="settings_version_info">संस्करण जानकारी</string>
+    <string name="settings_version_info_desc">ऐप संस्करण : %1$s</string>
+
+    <string name="settings_feedback">प्रतिक्रिया भेजें</string>
+    <string name="settings_feedback_desc">संपर्क करें या अपनी प्रतिक्रिया भेजें</string>
+
+    <string name="toast_fail_login">लॉगिन विफल हुआ। कृपया पुनः प्रयास करें।</string>
+    <string name="toast_fail_logout">लॉगआउट विफल हुआ। कृपया पुनः प्रयास करें।</string>
+    <string name="toast_fail_save_mood">मूड सहेजने में विफल। कृपया फिर से प्रयास करें।</string>
+    <string name="toast_fail_backup">बैकअप विफल हुआ। कृपया पुनः प्रयास करें।</string>
+    <string name="toast_fail_restore">पुनर्स्थापना विफल हुई। कृपया पुनः प्रयास करें।</string>
+    <string name="toast_fail_reset_data">रीसेट विफल रहा। कृपया पुनः प्रयास करें।</string>
+    <string name="toast_fail_sync_data">सिंक विफल हुआ। कृपया पुनः प्रयास करें।</string>
+    <string name="toast_success_login">आप सफलतापूर्वक लॉग इन हो गए हैं।</string>
+    <string name="toast_success_logout">आप सफलतापूर्वक लॉगआउट हो गए हैं।</string>
+    <string name="toast_success_save_mood">आपका मूड सफलतापूर्वक सहेजा गया है!</string>
+    <string name="toast_success_save_profile">प्रोफ़ाइल सफलतापूर्वक सहेजी गई।</string>
+    <string name="toast_success_backup">बैकअप सफलतापूर्वक पूरा हुआ।</string>
+    <string name="toast_success_restore">पुनर्स्थापना पूरी हुई! परिवर्तनों को लागू करने के लिए ऐप पुनः प्रारंभ हो रहा है।</string>
+    <string name="toast_success_reset_data">आपका डेटा हटा दिया गया है और नया प्रारंभ हो रहा है 🌱</string>
+    <string name="toast_success_sync_data">सिंक पूरा हुआ! आपका डेटा अब अपडेट है।</string>
+    <string name="toast_mood_save_limit">मूड संपादन सीमा पूरी हो चुकी है। कल फिर प्रयास करें 🌿</string>
+
+    <string name="dialog_msg_error_network">कृपया अपना इंटरनेट कनेक्शन जांचें।</string>
+
+    <string name="dialog_title_logout">थोड़ा विश्राम लें? 🌙</string>
+    <string name="dialog_msg_logout">लॉगआउट करने से आप CalmRoutine की यात्रा से बाहर निकल जाएंगे।\nचिंता न करें, आपकी दिनचर्याएँ और रिकॉर्ड सुरक्षित हैं।</string>
+    <string name="dialog_button_confirm_logout">साइन इन रहना चाहते हैं</string>
+    <string name="dialog_button_dismiss_logout">हां, मुझे लॉगआउट करें</string>
+
+    <string name="dialog_title_reset_data">नई शुरुआत करें? 🌿</string>
+    <string name="dialog_msg_reset_data">आपका डेटा हटाकर CalmRoutine की यात्रा फिर से शुरू होगी।\nलेकिन निश्चिंत रहें — आपकी भलाई हमेशा साथ है।</string>
+    <string name="dialog_button_confirm_reset_data">फिर कभी</string>
+    <string name="dialog_button_dismiss_reset_data">अभी रीसेट करें</string>
+
+    <string name="dialog_title_restore">पुरानी दिनचर्या पुनर्स्थापित करें? 🕊️</string>
+    <string name="dialog_msg_restore">पुनर्स्थापना से आपकी मौजूदा जानकारी बैकअप से बदल दी जाएगी।\nजारी रखने से पहले सुनिश्चित हो जाएं 💾</string>
+    <string name="dialog_button_confirm_restore">अभी नहीं</string>
+    <string name="dialog_button_dismiss_restore">अब पुनर्स्थापित करें</string>
+
+    <string name="dialog_title_notification_denied">कोमल याद की कमी महसूस हो रही है? 🔔</string>
+    <string name="dialog_msg_notification_denied">हम आपको अपना ख्याल रखने के लिए याद दिलाना चाहते हैं।\nलेकिन अभी सूचनाएँ बंद हैं।\nआइए सेटिंग्स में जाकर इन्हें फिर से चालू करें।</string>
+    <string name="dialog_button_confirm_notification_denied">सेटिंग्स खोलें</string>
+    <string name="dialog_button_dismiss_notification_denied">फिर कभी</string>
+
+    <string name="dialog_title_exact_alarm_denied">सही समय, सही रिमाइंडर ⏰</string>
+    <string name="dialog_msg_exact_alarm_denied">सटीक समय पर कोमल याद दिलाने के लिए,\nCalmRoutine को सटीक अलार्म की अनुमति चाहिए।\nआइए सेटिंग्स में जाकर इसे सक्षम करें 🌙</string>
+    <string name="dialog_button_confirm_exact_alarm_denied">सटीक रिमाइंडर की अनुमति दें</string>
+    <string name="dialog_button_dismiss_exact_alarm_denied">अभी नहीं</string>
+
+    <string name="dialog_title_battery_optimization">शांत रहें और ऊर्जावान बने रहें ⚡</string>
+    <string name="dialog_msg_battery_optimization">CalmRoutine समय पर कोमल रूप से याद दिला सके,\nइसके लिए कृपया बैटरी ऑप्टिमाइज़ेशन बंद करें।\nक्या हम सेटिंग्स खोलें?</string>
+    <string name="dialog_button_confirm_battery_optimization">सेटिंग्स खोलें</string>
+    <string name="dialog_button_dismiss_battery_optimization">फिर कभी</string>
+
+    <string name="dialog_title_feedback">आपकी राय महत्वपूर्ण है 💌</string>
+    <string name="dialog_msg_feedback">हमें जानना अच्छा लगेगा कि आपके मन में क्या है।\nक्या आप हमें एक कोमल संदेश भेजना चाहेंगे?</string>
+    <string name="dialog_button_confirm_feedback">प्रतिक्रिया भेजें</string>
+    <string name="dialog_button_dismiss_feedback">फिर कभी</string>
+
+    <string name="dialog_title_ads_save_mood">एक छोटा विज्ञापन देखें 🌟</string>
+    <string name="dialog_msg_ads_save_mood">आज का मूड सहेजने के लिए कृपया एक छोटा सा विज्ञापन देखें।\nयह बस एक क्षण लेता है और CalmRoutine को सभी के लिए मुफ़्त बनाए रखने में मदद करता है 🌿</string>
+    <string name="dialog_button_confirm_ads_save_mood">विज्ञापन देखें</string>
+
+    <string name="dialog_title_force_update">एक कोमल पुकार ✨</string>
+    <string name="dialog_msg_force_update">हमने CalmRoutine को और भी सहज बनाने के लिए कुछ सुधार किए हैं।\nकृपया अपनी यात्रा जारी रखने के लिए अपडेट करें।</string>
+    <string name="dialog_button_confirm_force_update">अब अपडेट करें</string>
+
+    <string name="dialog_title_unsaved_profile">रुकिए, एक पल ✋</string>
+    <string name="dialog_msg_unsaved_profile">लगता है आपने कुछ बदलाव किए हैं।\nबंद करने से पहले सेव करना चाहेंगे?</string>
+    <string name="dialog_button_confirm_unsaved_profile">सेव करें और बाहर निकलें</string>
+    <string name="dialog_button_dismiss_unsaved_profile">नज़रअंदाज़ करें</string>
+</resources>

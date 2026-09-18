@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">CalmRoutine</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">キャンセル</string>
+    <string name="common_loading">読み込み中</string>
+    <string name="common_add">追加</string>
+    <string name="common_undo">元に戻す</string>
+    <string name="common_save">保存</string>
+
+    <!-- ログイン画面 -->
+    <string name="login_login">ログイン</string>
+
+    <!-- ホーム画面 -->
+    <string name="home_title">こんにちは 👋</string>
+
+    <!-- 今日のルーティン -->
+    <string name="home_today_routine_title">今日のルーティン</string>
+    <string name="home_today_routine_summary">%1$d 件中 %2$d 件完了</string>
+    <string name="home_today_routine_incomplete">未完了のルーティン</string>
+
+    <!-- 今日の気分 -->
+    <string name="home_today_mood_title">今日の気分</string>
+    <string name="home_today_mood_prompt">今日はまだ気分を記録していません。</string>
+    <string name="home_today_mood_question">今日の気分はいかがですか？</string>
+    <string name="home_today_mood_record">気分を記録する</string>
+
+    <!-- 最近の気分の記録 -->
+    <string name="home_recent_moods_title">最近の気分</string>
+    <string name="home_recent_moods_view_all">すべて見る</string>
+    <string name="home_recent_moods_not_yet">まだ気分の記録がありません。</string>
+
+    <!-- ルーティン画面 -->
+    <string name="routine_title">今日のルーティン</string>
+    <string name="routine_completion_text">%1$d / %2$d 件のルーティンを完了 (%3$d%%)</string>
+    <string name="routine_empty_hint">まだルーティンがありません。追加しましょう！</string>
+    <string name="routine_add_title">新しいルーティンを追加</string>
+    <string name="routine_add_hint">ルーティンのタイトルを入力してください</string>
+    <string name="routine_add">追加</string>
+    <string name="routine_edit_hint">ルーティン名を編集</string>
+    <string name="routine_deleted">ルーティンが削除されました</string>
+
+    <!-- 気分画面 -->
+    <string name="mood_title">今日の気分はいかがですか？</string>
+    <string name="mood_memo_hint">今日の気分や思いを書いてみましょう</string>
+    <string name="mood_memo_placeholder">自由に書いてください...</string>
+    <string name="mood_ai_comment_title">AIコメント</string>
+    <string name="mood_loading">読み込み中...</string>
+    <string name="mood_comment_error">AIコメントの取得に失敗しました 😢</string>
+    <string name="mood_save_ads_loading">あなたの瞬間を準備しています... 🌿</string>
+
+    <string name="mood_add_custom_mood_title">カスタム絵文字を追加</string>
+    <string name="mood_add_custom_mood_emoji_label">絵文字</string>
+
+    <!-- 気分の履歴画面 -->
+    <string name="mood_history_title">気分の履歴</string>
+    <string name="mood_history_no_records">気分の記録が見つかりません。</string>
+    <string name="mood_history_date_format">%1$s</string> <!-- 例: 2025-06-30 -->
+    <string name="mood_history_ai_comment_label">AIコメント：</string>
+    <string name="mood_history_memo_label">あなたのメモ：</string>
+
+    <string name="settings_logout">ログアウト</string>
+    <string name="settings_logout_desc">アカウントからサインアウトします</string>
+
+    <string name="settings_edit_profile">プロフィールを編集</string>
+    <string name="settings_edit_profile_desc">ニックネーム、性別、誕生日、興味を更新</string>
+
+    <string name="settings_edit_profile_title">プロフィールを編集</string>
+    <string name="settings_edit_profile_email_label">メールアドレス</string>
+    <string name="settings_edit_profile_nickname_label">ニックネーム</string>
+    <string name="settings_edit_profile_gender_label">性別</string>
+    <string name="settings_edit_profile_birthdate_label">誕生日</string>
+    <string name="settings_edit_profile_interest_label">興味・関心</string>
+    <string name="settings_edit_profile_interest_hint">入力してEnterキーを押してください...</string>
+    <string name="settings_edit_profile_save_button">保存</string>
+
+    <string name="settings_edit_profile_gender_male">男性</string>
+    <string name="settings_edit_profile_gender_female">女性</string>
+    <string name="settings_edit_profile_gender_unspecified">未指定</string>
+
+    <string name="settings_push_notifications">プッシュ通知</string>
+    <string name="settings_push_notifications_desc">通知のオン・オフを切り替えます</string>
+
+    <string name="settings_notification_time">通知時間</string>
+    <string name="settings_notification_time_desc">リマインダーの希望時間を設定します</string>
+
+    <string name="settings_notification_type">通知の種類</string>
+    <string name="settings_notification_type_desc">通知の種類を選択してください</string>
+
+    <string name="settings_notification_type_dialog_title">通知の種類を選択</string>
+    <string name="settings_notification_type_routine">ルーティンリマインダー</string>
+    <string name="settings_notification_type_mood">気分チェックイン</string>
+    <string name="settings_notification_type_ai">AIコーチのヒント</string>
+
+    <string name="notification_title_routine_01">流れを保とう 🌅</string>
+    <string name="notification_msg_routine_01">今日のルーティンを忘れずに確認しましょう。</string>
+
+    <string name="notification_title_routine_02">穏やかに軌道に乗って 🧭</string>
+    <string name="notification_msg_routine_02">小さなルーティンが一日を支えます。</string>
+
+    <string name="notification_title_routine_03">一歩ずつ進もう 👣</string>
+    <string name="notification_msg_routine_03">あなたの落ち着いたリズムが大切です — 続けましょう。</string>
+
+    <string name="notification_title_routine_04">あなたのためのひととき 🕊️</string>
+    <string name="notification_msg_routine_04">習慣が自然に進むのを任せましょう。</string>
+
+    <string name="notification_title_routine_05">流れをチェックしよう 💧</string>
+    <string name="notification_msg_routine_05">穏やかに勢いを保ちましょう。</string>
+
+    <string name="notification_title_routine_06">深呼吸して始めよう 🌬️</string>
+    <string name="notification_msg_routine_06">あなたのルーティンは準備できています。</string>
+
+    <string name="notification_title_routine_07">一日のアンカー ⚓</string>
+    <string name="notification_msg_routine_07">小さな習慣が心を支えます。</string>
+
+    <string name="notification_title_routine_08">穏やかな進歩が大切 🌿</string>
+    <string name="notification_msg_routine_08">あなたは素敵なものを築いています — 一歩ずつ。</string>
+
+    <string name="notification_title_routine_09">あなたの優しいガイドがここに 💫</string>
+    <string name="notification_msg_routine_09">あなたの日々の歩みが待っています。</string>
+
+    <string name="notification_title_routine_10">小さな儀式、大きな平和 ✨</string>
+    <string name="notification_msg_routine_10">小さなルーティンにも大きな意味があります。</string>
+
+    <string name="notification_title_mood_01">今日の心はどう？ 💛</string>
+    <string name="notification_msg_mood_01">自分自身と向き合う時間を取りましょう。</string>
+
+    <string name="notification_title_mood_02">あなたとこの瞬間だけ 🌿</string>
+    <string name="notification_msg_mood_02">立ち止まって、穏やかに気分を感じてみてください。</string>
+
+    <string name="notification_title_mood_03">小さな感情も大切に 🌙</string>
+    <string name="notification_msg_mood_03">どんな気持ちもあなたのものです。</string>
+
+    <string name="notification_title_mood_04">優しいチェックイン 🫧</string>
+    <string name="notification_msg_mood_04">あなたの気分はいつも大切にされるべきです。</string>
+
+    <string name="notification_title_mood_05">こんにちは、心の天気 ☁️</string>
+    <string name="notification_msg_mood_05">今日の空はどう見えますか？</string>
+
+    <string name="notification_title_mood_06">受け入れて、そのままで 🌊</string>
+    <string name="notification_msg_mood_06">感じるままにいるのは大丈夫です。</string>
+
+    <string name="notification_title_mood_07">気づきのひと呼吸 🌬️</string>
+    <string name="notification_msg_mood_07">息を吸って吐いて — 穏やかに気分をチェックしましょう。</string>
+
+    <string name="notification_title_mood_08">ゆっくり聴いて 🎧</string>
+    <string name="notification_msg_mood_08">あなたの感情は何かを伝えています。</string>
+
+    <string name="notification_title_mood_09">静かに、優しく 🤲</string>
+    <string name="notification_msg_mood_09">判断せずに感じるスペースを自分に与えましょう。</string>
+
+    <string name="notification_title_mood_10">感じることは安全です 🌌</string>
+    <string name="notification_msg_mood_10">この瞬間はあなたのためだけのもの。内側はどうですか？</string>
+
+    <!-- 3. AIコーチ関連の設定 -->
+    <string name="settings_ai_comment_style">AIコメントスタイル</string>
+    <string name="settings_ai_comment_style_desc">AIコメントのスタイルを選択してください</string>
+
+    <string name="settings_ai_comment_dialog_title">コメントスタイルを選択</string>
+    <string name="settings_ai_comment_style_friendly">フレンドリー</string>
+    <string name="settings_ai_comment_style_motivational">モチベーション</string>
+    <string name="settings_ai_comment_style_reflective">内省的</string>
+
+    <string name="settings_ai_comment_frequency">AIコメントの頻度</string>
+    <string name="settings_ai_comment_frequency_desc">AIコメントを受け取る頻度を設定してください</string>
+
+    <string name="settings_ai_frequency_dialog_title">コメントの頻度を選択</string>
+    <string name="settings_ai_comment_frequency_high">頻繁に</string>
+    <string name="settings_ai_comment_frequency_medium">ときどき</string>
+    <string name="settings_ai_comment_frequency_low">まれに</string>
+
+    <!-- 4. アプリのテーマと外観 -->
+    <string name="settings_theme_mode">テーマモード</string>
+    <string name="settings_theme_mode_desc">ライト、ダーク、またはシステムデフォルトを選択</string>
+
+    <string name="settings_theme_mode_dialog_title">テーマモードを選択</string>
+    <string name="settings_theme_mode_light">ライト</string>
+    <string name="settings_theme_mode_dark">ダーク</string>
+    <string name="settings_theme_mode_system">システムデフォルト</string>
+
+    <string name="settings_font_size">フォントサイズ</string>
+    <string name="settings_font_size_desc">アプリのフォントサイズを調整</string>
+
+    <string name="settings_font_size_dialog_title">フォントサイズを選択</string>
+    <string name="settings_font_size_small">小</string>
+    <string name="settings_font_size_medium">中</string>
+    <string name="settings_font_size_large">大</string>
+
+    <string name="settings_color_theme">カラーテーマ</string>
+    <string name="settings_color_theme_desc">アプリのカラーテーマを選択してください</string>
+
+    <string name="settings_color_theme_dialog_title">カラーテーマを選択</string>
+    <string name="settings_color_theme_blue">パステルブルー</string>
+    <string name="settings_color_theme_mint">パステルミント</string>
+    <string name="settings_color_theme_pink">パステルピンク</string>
+
+    <!-- 5. データとバックアップ -->
+    <string name="settings_data_backup">データバックアップ</string>
+    <string name="settings_data_backup_desc">データをクラウドに保存します</string>
+    <string name="settings_data_backup_warning">※バックアップは7日間保存されます</string>
+
+    <string name="settings_data_restore">データ復元</string>
+    <string name="settings_data_restore_desc">クラウドからデータを復元します</string>
+
+    <string name="settings_data_reset">データリセット</string>
+    <string name="settings_data_reset_desc">アプリの全データを削除します</string>
+
+    <string name="settings_data_sync">同期設定</string>
+    <string name="settings_data_sync_desc">データ同期を設定します</string>
+
+    <string name="settings_sync_data_title">データ同期</string>
+    <string name="settings_sync_data_auto_backup">自動バックアップを有効にする</string>
+    <string name="settings_sync_data_backup_frequency">バックアップ頻度</string>
+    <string name="settings_sync_data_backup_frequency_desc">自動バックアップの頻度を選択してください</string>
+    <string name="settings_sync_data_last_sync">最終同期時間</string>
+    <string name="settings_sync_data_manual_sync">今すぐ同期</string>
+    <string name="settings_sync_data_manual_sync_desc">すぐにデータをバックアップ・復元します</string>
+    <string name="settings_sync_data_frequency_daily">毎日</string>
+    <string name="settings_sync_data_frequency_weekly">毎週</string>
+    <string name="settings_sync_data_frequency_monthly">毎月</string>
+
+    <!-- 6. プレミアム＆広告関連 -->
+    <string name="settings_premium_upgrade">プレミアムにアップグレード</string>
+    <string name="settings_premium_upgrade_desc">広告を削除して機能をアンロック</string>
+
+    <string name="settings_premium_upgrade_dialog_title">プレミアムにアップグレード</string>
+    <string name="settings_premium_upgrade_dialog_desc_locked_feature">この機能はプレミアムユーザー専用です。</string>
+    <string name="settings_premium_upgrade_dialog_button">今すぐアップグレード</string>
+
+    <string name="settings_premium_upgrade_title">プレミアムにアップグレード</string>
+    <string name="settings_premium_upgrade_msg">すべてのプレミアム機能でウェルネス体験を最大化しましょう。</string>
+    <string name="settings_premium_upgrade_cancel">いつでもPlayストアからキャンセルできます。</string>
+
+    <string name="settings_premium_upgrade_monthly">月額</string>
+    <string name="settings_premium_upgrade_yearly">年額</string>
+
+    <string name="settings_premium_upgrade_benefit1_title">広告なしで集中できる</string>
+    <string name="settings_premium_upgrade_benefit1_desc">広告なしのクリーンで集中しやすい体験をお楽しみください。</string>
+
+    <string name="settings_premium_upgrade_benefit2_title">GPT-4.1で賢いAI</string>
+    <string name="settings_premium_upgrade_benefit2_desc">GPT-4.1による深くパーソナライズされたコーチングを受け取れます。</string>
+
+    <string name="settings_premium_upgrade_benefit3_title">いつでも気分を編集</string>
+    <string name="settings_premium_upgrade_benefit3_desc">1日に最大3回、気分の変化に応じて記録を更新できます。</string>
+
+    <string name="settings_premium_upgrade_benefit4_title">感情アイコンのカスタマイズ</string>
+    <string name="settings_premium_upgrade_benefit4_desc">お気に入りのアイコンと色で感情を自由に表現しましょう。</string>
+
+    <string name="settings_premium_upgrade_benefit5_title">AIコーチのスタイルを選べる</string>
+    <string name="settings_premium_upgrade_benefit5_desc">気分に合ったトーンと頻度でAIからのメッセージを受け取れます。</string>
+
+    <string name="settings_premium_upgrade_benefit6_title">バックアップ &amp; 同期</string>
+    <string name="settings_premium_upgrade_benefit6_desc">大切なデータを安全に保存し、複数端末で同期できます。</string>
+
+    <string name="settings_subscription_status">サブスクリプション状況</string>
+    <string name="settings_subscription_status_premium_active">プレミアム有効</string>
+    <string name="settings_subscription_status_free_plan">無料プラン</string>
+
+    <string name="settings_manage_subscription">サブスクリプションを管理</string>
+    <string name="settings_manage_subscription_desc">Playストアでサブスクリプションを管理する</string>
+
+    <!-- 7. その他 -->
+    <string name="settings_open_source_licenses">オープンソースライセンス</string>
+    <string name="settings_open_source_licenses_desc">このアプリで使用しているサードパーティのオープンソースライセンスを表示します</string>
+
+    <string name="settings_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_privacy_policy_desc">CalmRoutine のプライバシーポリシーを表示します</string>
+
+    <string name="settings_version_info">バージョン情報</string>
+    <string name="settings_version_info_desc">アプリのバージョン：%1$s</string>
+
+    <string name="settings_feedback">フィードバックを送る</string>
+    <string name="settings_feedback_desc">ご連絡またはフィードバックをお寄せください</string>
+
+    <string name="toast_fail_login">ログインに失敗しました。もう一度お試しください。</string>
+    <string name="toast_fail_logout">ログアウトに失敗しました。もう一度お試しください。</string>
+    <string name="toast_fail_save_mood">感情の保存に失敗しました。もう一度お試しください。</string>
+    <string name="toast_fail_backup">バックアップに失敗しました。もう一度お試しください。</string>
+    <string name="toast_fail_restore">復元に失敗しました。もう一度お試しください。</string>
+    <string name="toast_fail_reset_data">リセットに失敗しました。もう一度お試しください。</string>
+    <string name="toast_fail_sync_data">同期に失敗しました。もう一度お試しください。</string>
+    <string name="toast_success_login">ログインしました。</string>
+    <string name="toast_success_logout">正常にログアウトしました。</string>
+    <string name="toast_success_save_mood">感情が正常に保存されました！</string>
+    <string name="toast_success_save_profile">プロフィールが正常に保存されました。</string>
+    <string name="toast_success_backup">バックアップが完了しました。</string>
+    <string name="toast_success_restore">復元が完了しました！変更を適用するためにアプリを再起動します。</string>
+    <string name="toast_success_reset_data">データが削除され、リセットされました。新たなスタートです 🌱</string>
+    <string name="toast_success_sync_data">同期が完了しました！データが最新になりました。</string>
+    <string name="toast_mood_save_limit">感情編集の上限に達しました。明日また試してください 🌿</string>
+
+    <string name="dialog_msg_error_network">インターネット接続を確認してください。</string>
+
+    <string name="dialog_title_logout">少し休憩しませんか？🌙</string>
+    <string name="dialog_msg_logout">ログアウトすると、CalmRoutine の旅から一時的に離れます。\nでも安心してください、ルーティンと記録は安全に保たれています。</string>
+    <string name="dialog_button_confirm_logout">サインインを続ける</string>
+    <string name="dialog_button_dismiss_logout">はい、ログアウトします</string>
+
+    <string name="dialog_title_reset_data">リフレッシュの時間？🌿</string>
+    <string name="dialog_msg_reset_data">データを消去すると、CalmRoutine の旅を新しく始められます。\nでも大丈夫 — あなたのウェルビーイングはここにあります。</string>
+    <string name="dialog_button_confirm_reset_data">あとで</string>
+    <string name="dialog_button_dismiss_reset_data">今すぐリフレッシュ</string>
+
+    <string name="dialog_title_restore">過去のルーティンを復元しますか？🕊️</string>
+    <string name="dialog_msg_restore">復元すると現在の記録がバックアップで上書きされます。\n準備ができていることを確認してください 💾</string>
+    <string name="dialog_button_confirm_restore">今はしない</string>
+    <string name="dialog_button_dismiss_restore">今すぐ復元</string>
+
+    <string name="dialog_title_notification_denied">優しいリマインダーが届きません🔔</string>
+    <string name="dialog_msg_notification_denied">あなたのセルフケアを応援したいのですが、\n現在通知が無効になっています。\n設定に移動して、そっとオンにしましょう。</string>
+    <string name="dialog_button_confirm_notification_denied">設定を開く</string>
+    <string name="dialog_button_dismiss_notification_denied">あとで</string>
+
+    <string name="dialog_title_exact_alarm_denied">ぴったりの時間にリマインド⏰</string>
+    <string name="dialog_msg_exact_alarm_denied">最適なタイミングでお知らせするには、\nCalmRoutine に正確なアラームの許可が必要です。\n設定に移動して有効にしましょう 🌙</string>
+    <string name="dialog_button_confirm_exact_alarm_denied">正確なリマインダーを許可</string>
+    <string name="dialog_button_dismiss_exact_alarm_denied">今はしない</string>
+
+    <string name="dialog_title_battery_optimization">落ち着いて、元気に ⚡</string>
+    <string name="dialog_msg_battery_optimization">CalmRoutine が時間通りに優しくリマインドできるように、\nこのアプリのバッテリー最適化を無効にしてください。\n今すぐ設定を開きますか？</string>
+    <string name="dialog_button_confirm_battery_optimization">設定を開く</string>
+    <string name="dialog_button_dismiss_battery_optimization">あとで</string>
+
+    <string name="dialog_title_feedback">あなたの声が大切です 💌</string>
+    <string name="dialog_msg_feedback">あなたの気持ちやご意見をお聞かせください。\n優しいメッセージを送ってみませんか？</string>
+    <string name="dialog_button_confirm_feedback">フィードバックを送る</string>
+    <string name="dialog_button_dismiss_feedback">あとで</string>
+
+    <string name="dialog_title_ads_save_mood">短い広告をご覧ください 🌟</string>
+    <string name="dialog_msg_ads_save_mood">今日の感情を保存するには、短い広告をご覧ください。\n数秒だけで、CalmRoutine をみんなに無料で提供し続ける手助けになります 🌿</string>
+    <string name="dialog_button_confirm_ads_save_mood">広告を見る</string>
+
+    <string name="dialog_title_force_update">やさしいお知らせ ✨</string>
+    <string name="dialog_msg_force_update">CalmRoutine をさらにスムーズにするために\nいくつか改善しました。\n最新バージョンに更新して旅を続けましょう。</string>
+    <string name="dialog_button_confirm_force_update">今すぐ更新</string>
+
+    <string name="dialog_title_unsaved_profile">変更を保存しますか？✋</string>
+    <string name="dialog_msg_unsaved_profile">変更が保存されていません。\n保存してから終了しますか？</string>
+    <string name="dialog_button_confirm_unsaved_profile">保存して終了</string>
+    <string name="dialog_button_dismiss_unsaved_profile">破棄する</string>
+
+</resources>

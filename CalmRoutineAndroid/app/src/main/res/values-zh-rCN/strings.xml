@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">CalmRoutine</string>
+
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_loading">加载中</string>
+    <string name="common_add">添加</string>
+    <string name="common_undo">撤销</string>
+    <string name="common_save">保存</string>
+
+    <!-- 登录画面 -->
+    <string name="login_login">登录</string>
+
+    <!-- 首页画面 -->
+    <string name="home_title">你好 👋</string>
+
+    <!-- 今日例行事项 -->
+    <string name="home_today_routine_title">今日例行事项</string>
+    <string name="home_today_routine_summary">%1$d / %2$d 项例行事项已完成</string>
+    <string name="home_today_routine_incomplete">未完成的例行事项</string>
+
+    <!-- 今日心情 -->
+    <string name="home_today_mood_title">今日心情</string>
+    <string name="home_today_mood_prompt">你今天还没有记录心情。</string>
+    <string name="home_today_mood_question">你今天感觉如何？</string>
+    <string name="home_today_mood_record">记录心情</string>
+
+    <!-- 最近心情记录 -->
+    <string name="home_recent_moods_title">最近心情</string>
+    <string name="home_recent_moods_view_all">查看全部</string>
+    <string name="home_recent_moods_not_yet">暂无心情记录。</string>
+
+    <!-- 例行画面 -->
+    <string name="routine_title">今日例行事项</string>
+    <string name="routine_completion_text">%1$d / %2$d 项例行事项已完成（%3$d%%）</string>
+    <string name="routine_empty_hint">还没有例行事项。快添加一个吧！</string>
+    <string name="routine_add_title">添加新例行事项</string>
+    <string name="routine_add_hint">输入例行事项标题</string>
+    <string name="routine_add">添加</string>
+    <string name="routine_edit_hint">编辑例行事项名称</string>
+    <string name="routine_deleted">例行事项已删除</string>
+
+    <!-- 心情画面 -->
+    <string name="mood_title">你今天感觉如何？</string>
+    <string name="mood_memo_hint">随意写下你的日常、心情或想法</string>
+    <string name="mood_memo_placeholder">写下你想说的...</string>
+    <string name="mood_ai_comment_title">AI 评论</string>
+    <string name="mood_loading">加载中...</string>
+    <string name="mood_comment_error">获取 AI 评论失败 😢</string>
+    <string name="mood_save_ads_loading">为你准备时刻... 🌿</string>
+
+    <string name="mood_add_custom_mood_title">添加自定义表情</string>
+    <string name="mood_add_custom_mood_emoji_label">表情</string>
+
+    <!-- 心情历史画面 -->
+    <string name="mood_history_title">心情历史</string>
+    <string name="mood_history_no_records">未找到心情记录。</string>
+    <string name="mood_history_date_format">%1$s</string> <!-- 例如: 2025-06-30 -->
+    <string name="mood_history_ai_comment_label">AI 评论：</string>
+    <string name="mood_history_memo_label">你的笔记：</string>
+
+    <!-- 设置画面 -->
+    <!-- 1. 账户与验证 -->
+    <string name="settings_logout">登出</string>
+    <string name="settings_logout_desc">从您的账户中登出</string>
+
+    <string name="settings_edit_profile">编辑个人资料</string>
+    <string name="settings_edit_profile_desc">更新你的昵称、性别、生日和兴趣</string>
+
+    <string name="settings_edit_profile_title">编辑个人资料</string>
+    <string name="settings_edit_profile_email_label">邮箱</string>
+    <string name="settings_edit_profile_nickname_label">昵称</string>
+    <string name="settings_edit_profile_gender_label">性别</string>
+    <string name="settings_edit_profile_birthdate_label">生日</string>
+    <string name="settings_edit_profile_interest_label">兴趣</string>
+    <string name="settings_edit_profile_interest_hint">输入并按回车键...</string>
+    <string name="settings_edit_profile_save_button">保存</string>
+
+    <string name="settings_edit_profile_gender_male">男</string>
+    <string name="settings_edit_profile_gender_female">女</string>
+    <string name="settings_edit_profile_gender_unspecified">未指定</string>
+
+    <!-- 2. 通知设置 -->
+    <string name="settings_push_notifications">推送通知</string>
+    <string name="settings_push_notifications_desc">启用或禁用通知</string>
+
+    <string name="settings_notification_time">通知时间</string>
+    <string name="settings_notification_time_desc">设置提醒的偏好时间</string>
+
+    <string name="settings_notification_type">通知类型</string>
+    <string name="settings_notification_type_desc">选择通知类型</string>
+
+    <string name="settings_notification_type_dialog_title">选择通知类型</string>
+    <string name="settings_notification_type_routine">例行提醒</string>
+    <string name="settings_notification_type_mood">心情签到</string>
+    <string name="settings_notification_type_ai">AI教练提示</string>
+
+    <!-- 通知文案 -->
+    <string name="notification_title_routine_01">保持你的节奏 🌅</string>
+    <string name="notification_msg_routine_01">别忘了查看今天的例行事项。</string>
+
+    <string name="notification_title_routine_02">温柔地保持节奏 🧭</string>
+    <string name="notification_msg_routine_02">小小的例行让一天更加稳固。</string>
+
+    <string name="notification_title_routine_03">一步一个脚印 👣</string>
+    <string name="notification_msg_routine_03">你的平静节奏很重要，继续保持。</string>
+
+    <string name="notification_title_routine_04">属于你的时刻 🕊️</string>
+    <string name="notification_msg_routine_04">让习惯帮你完成剩下的事。</string>
+
+    <string name="notification_title_routine_05">与你的节奏同步 💧</string>
+    <string name="notification_msg_routine_05">让我们温柔地保持动力。</string>
+
+    <string name="notification_title_routine_06">深呼吸，开始吧 🌬️</string>
+    <string name="notification_msg_routine_06">当你准备好了，例行也准备好了。</string>
+
+    <string name="notification_title_routine_07">为你的一天稳固锚点 ⚓</string>
+    <string name="notification_msg_routine_07">一个小习惯让心灵安定。</string>
+
+    <string name="notification_title_routine_08">平和的进步很重要 🌿</string>
+    <string name="notification_msg_routine_08">你正在一步步打造美好。</string>
+
+    <string name="notification_title_routine_09">你的温柔引导在这里 💫</string>
+    <string name="notification_msg_routine_09">每天的步伐在等着你。</string>
+
+    <string name="notification_title_routine_10">小仪式，大平和 ✨</string>
+    <string name="notification_msg_routine_10">即使是小习惯也意义非凡。</string>
+
+    <string name="notification_title_mood_01">你今天的心情如何？💛</string>
+    <string name="notification_msg_mood_01">花点时间关照一下自己吧。</string>
+
+    <string name="notification_title_mood_02">只有你和此刻 🌿</string>
+    <string name="notification_msg_mood_02">暂停片刻，温柔感受你的心情。</string>
+
+    <string name="notification_title_mood_03">细微情感也重要 🌙</string>
+    <string name="notification_msg_mood_03">无论你感觉如何，它都属于你。</string>
+
+    <string name="notification_title_mood_04">温柔的关照 🫧</string>
+    <string name="notification_msg_mood_04">你的心情值得被关注，永远如此。</string>
+
+    <string name="notification_title_mood_05">你好，内心的天气 ☁️</string>
+    <string name="notification_msg_mood_05">你今天的天空如何？</string>
+
+    <string name="notification_title_mood_06">让它进来，让它存在 🌊</string>
+    <string name="notification_msg_mood_06">感受你的情绪，没关系的。</string>
+
+    <string name="notification_title_mood_07">一口觉察的气息 🌬️</string>
+    <string name="notification_msg_mood_07">吸气，呼气——温柔地察觉你的心情。</string>
+
+    <string name="notification_title_mood_08">放慢脚步，倾听 🎧</string>
+    <string name="notification_msg_mood_08">你的情绪有话要说。</string>
+
+    <string name="notification_title_mood_09">静下来，善待自己 🤲</string>
+    <string name="notification_msg_mood_09">给自己空间，无需评判地感受。</string>
+
+    <string name="notification_title_mood_10">你可以安心感受 🌌</string>
+    <string name="notification_msg_mood_10">此刻属于你，内心在说什么？</string>
+
+    <!-- 3. AI教练相关设置 -->
+    <string name="settings_ai_comment_style">AI 评论风格</string>
+    <string name="settings_ai_comment_style_desc">选择 AI 评论的风格</string>
+
+    <string name="settings_ai_comment_dialog_title">选择评论风格</string>
+    <string name="settings_ai_comment_style_friendly">友好</string>
+    <string name="settings_ai_comment_style_motivational">激励</string>
+    <string name="settings_ai_comment_style_reflective">反思</string>
+
+    <string name="settings_ai_comment_frequency">AI 评论频率</string>
+    <string name="settings_ai_comment_frequency_desc">设置接收 AI 评论的频率</string>
+
+    <string name="settings_ai_frequency_dialog_title">选择评论频率</string>
+    <string name="settings_ai_comment_frequency_high">频繁</string>
+    <string name="settings_ai_comment_frequency_medium">偶尔</string>
+    <string name="settings_ai_comment_frequency_low">很少</string>
+
+    <!-- 4. 应用主题与外观 -->
+    <string name="settings_theme_mode">主题模式</string>
+    <string name="settings_theme_mode_desc">选择浅色、深色或系统默认</string>
+
+    <string name="settings_theme_mode_dialog_title">选择主题模式</string>
+    <string name="settings_theme_mode_light">浅色</string>
+    <string name="settings_theme_mode_dark">深色</string>
+    <string name="settings_theme_mode_system">系统默认</string>
+
+    <string name="settings_font_size">字体大小</string>
+    <string name="settings_font_size_desc">调整应用字体大小</string>
+
+    <string name="settings_font_size_dialog_title">选择字体大小</string>
+    <string name="settings_font_size_small">小</string>
+    <string name="settings_font_size_medium">中</string>
+    <string name="settings_font_size_large">大</string>
+
+    <string name="settings_color_theme">配色主题</string>
+    <string name="settings_color_theme_desc">选择应用配色主题</string>
+
+    <string name="settings_color_theme_dialog_title">选择配色主题</string>
+    <string name="settings_color_theme_blue">柔和蓝</string>
+    <string name="settings_color_theme_mint">柔和薄荷绿</string>
+    <string name="settings_color_theme_pink">柔和粉红</string>
+
+    <!-- 5. 数据与备份 -->
+    <string name="settings_data_backup">数据备份</string>
+    <string name="settings_data_backup_desc">将数据保存到云端</string>
+    <string name="settings_data_backup_warning">※备份数据将保存7天</string>
+
+    <string name="settings_data_restore">数据恢复</string>
+    <string name="settings_data_restore_desc">从云端恢复数据</string>
+
+    <string name="settings_data_reset">重置数据</string>
+    <string name="settings_data_reset_desc">清除所有应用数据</string>
+
+    <string name="settings_data_sync">同步设置</string>
+    <string name="settings_data_sync_desc">配置数据同步</string>
+
+    <string name="settings_sync_data_title">数据同步</string>
+    <string name="settings_sync_data_auto_backup">启用自动备份</string>
+    <string name="settings_sync_data_backup_frequency">备份频率</string>
+    <string name="settings_sync_data_backup_frequency_desc">选择自动备份的频率</string>
+    <string name="settings_sync_data_last_sync">上次同步时间</string>
+    <string name="settings_sync_data_manual_sync">立即同步</string>
+    <string name="settings_sync_data_manual_sync_desc">点击立即备份并恢复数据</string>
+    <string name="settings_sync_data_frequency_daily">每日</string>
+    <string name="settings_sync_data_frequency_weekly">每周</string>
+    <string name="settings_sync_data_frequency_monthly">每月</string>
+
+    <!-- 6. 高级版与广告相关 -->
+    <string name="settings_premium_upgrade">升级为 Premium</string>
+    <string name="settings_premium_upgrade_desc">移除广告并解锁功能</string>
+
+    <string name="settings_premium_upgrade_dialog_title">升级为 Premium</string>
+    <string name="settings_premium_upgrade_dialog_desc_locked_feature">此功能仅限 Premium 用户使用。</string>
+    <string name="settings_premium_upgrade_dialog_button">立即升级</string>
+
+    <string name="settings_premium_upgrade_title">升级为 Premium</string>
+    <string name="settings_premium_upgrade_msg">解锁所有高级功能，享受完整的健康体验。</string>
+    <string name="settings_premium_upgrade_cancel">您可以随时通过 Play 商店账户取消订阅。</string>
+
+    <string name="settings_premium_upgrade_monthly">月付</string>
+    <string name="settings_premium_upgrade_yearly">年付</string>
+
+    <string name="settings_premium_upgrade_benefit1_title">无广告，专注体验</string>
+    <string name="settings_premium_upgrade_benefit1_desc">享受无广告干扰的清爽体验。</string>
+
+    <string name="settings_premium_upgrade_benefit2_title">更智能的 GPT-4.1 AI</string>
+    <string name="settings_premium_upgrade_benefit2_desc">获得由 GPT-4.1 支持的更深度、更个性化的指导。</string>
+
+    <string name="settings_premium_upgrade_benefit3_title">随时编辑情绪</string>
+    <string name="settings_premium_upgrade_benefit3_desc">当心情变化时，一天最多可编辑3次情绪记录。</string>
+
+    <string name="settings_premium_upgrade_benefit4_title">自定义情绪图标</string>
+    <string name="settings_premium_upgrade_benefit4_desc">用你喜欢的图标和颜色个性化情绪展示。</string>
+
+    <string name="settings_premium_upgrade_benefit5_title">控制 AI 指导风格</string>
+    <string name="settings_premium_upgrade_benefit5_desc">选择适合你的语气和频率的 AI 消息。</string>
+
+    <string name="settings_premium_upgrade_benefit6_title">备份与同步</string>
+    <string name="settings_premium_upgrade_benefit6_desc">安全备份数据，轻松跨设备同步。</string>
+
+    <string name="settings_subscription_status">订阅状态</string>
+    <string name="settings_subscription_status_premium_active">Premium 已激活</string>
+    <string name="settings_subscription_status_free_plan">免费方案</string>
+
+    <string name="settings_manage_subscription">管理订阅</string>
+    <string name="settings_manage_subscription_desc">在 Play 商店管理您的订阅</string>
+
+    <!-- 7. 其他 -->
+    <string name="settings_open_source_licenses">开源许可协议</string>
+    <string name="settings_open_source_licenses_desc">查看本应用使用的第三方开源许可协议</string>
+
+    <string name="settings_privacy_policy">隐私政策</string>
+    <string name="settings_privacy_policy_desc">查看 CalmRoutine 的隐私政策</string>
+
+    <string name="settings_version_info">版本信息</string>
+    <string name="settings_version_info_desc">应用版本：%1$s</string>
+
+    <string name="settings_feedback">发送反馈</string>
+    <string name="settings_feedback_desc">联系我们或发送反馈</string>
+
+    <string name="toast_fail_login">登录失败。请重试。</string>
+    <string name="toast_fail_logout">登出失败。请重试。</string>
+    <string name="toast_fail_save_mood">保存心情失败。请重试。</string>
+    <string name="toast_fail_backup">备份失败。请重试。</string>
+    <string name="toast_fail_restore">恢复失败。请重试。</string>
+    <string name="toast_fail_reset_data">重置失败。请重试。</string>
+    <string name="toast_fail_sync_data">同步失败。请重试。</string>
+    <string name="toast_success_login">登录成功。</string>
+    <string name="toast_success_logout">您已成功登出。</string>
+    <string name="toast_success_save_mood">心情已成功保存！</string>
+    <string name="toast_success_save_profile">个人资料保存成功。</string>
+    <string name="toast_success_backup">备份成功完成。</string>
+    <string name="toast_success_restore">恢复完成！正在重启应用以应用更改。</string>
+    <string name="toast_success_reset_data">您的数据已清除并重置。重新开始 🌱</string>
+    <string name="toast_success_sync_data">同步完成！您的数据已更新。</string>
+    <string name="toast_mood_save_limit">心情编辑次数已达上限。请明天再试 🌿</string>
+
+    <string name="dialog_msg_error_network">请检查您的网络连接。</string>
+
+    <string name="dialog_title_logout">休息一下吗？🌙</string>
+    <string name="dialog_msg_logout">登出将退出您的 CalmRoutine 之旅。\n别担心，您的例行和记录都很安全。</string>
+    <string name="dialog_button_confirm_logout">继续登录</string>
+    <string name="dialog_button_dismiss_logout">是的，登出</string>
+
+    <string name="dialog_title_reset_data">需要刷新吗？🌿</string>
+    <string name="dialog_msg_reset_data">清除数据将让您重新开始 CalmRoutine 之旅。\n但别担心——您的健康始终伴随左右。</string>
+    <string name="dialog_button_confirm_reset_data">稍后再说</string>
+    <string name="dialog_button_dismiss_reset_data">立即刷新</string>
+
+    <string name="dialog_title_restore">恢复之前的例行？🕊️</string>
+    <string name="dialog_msg_restore">恢复会用备份数据替换当前记录。请确认准备好后继续 💾</string>
+    <string name="dialog_button_confirm_restore">暂不恢复</string>
+    <string name="dialog_button_dismiss_restore">立即恢复</string>
+
+    <string name="dialog_title_notification_denied">缺少温柔的提醒？🔔</string>
+    <string name="dialog_msg_notification_denied">我们希望提醒您关爱自己。\n但通知当前已关闭。\n让我们前往设置，温柔地重新开启吧。</string>
+    <string name="dialog_button_confirm_notification_denied">前往设置</string>
+    <string name="dialog_button_dismiss_notification_denied">稍后再说</string>
+
+    <string name="dialog_title_exact_alarm_denied">准时提醒，恰到好处 ⏰</string>
+    <string name="dialog_msg_exact_alarm_denied">为了在恰当时刻温柔提醒您，\nCalmRoutine 需要精准提醒权限。\n让我们访问设置，实现它吧 🌙</string>
+    <string name="dialog_button_confirm_exact_alarm_denied">允许精准提醒</string>
+    <string name="dialog_button_dismiss_exact_alarm_denied">暂不允许</string>
+
+    <string name="dialog_title_battery_optimization">保持平静，充满能量 ⚡</string>
+    <string name="dialog_msg_battery_optimization">为了确保 CalmRoutine 能准时温柔提醒您，\n请关闭本应用的电池优化。\n现在打开设置吗？</string>
+    <string name="dialog_button_confirm_battery_optimization">打开设置</string>
+    <string name="dialog_button_dismiss_battery_optimization">稍后再说</string>
+
+    <string name="dialog_title_feedback">您的声音很重要 💌</string>
+    <string name="dialog_msg_feedback">我们很想听听您的想法。\n准备好发送温柔的信息了吗？</string>
+    <string name="dialog_button_confirm_feedback">发送反馈</string>
+    <string name="dialog_button_dismiss_feedback">稍后再说</string>
+
+    <string name="dialog_title_ads_save_mood">观看一个简短广告 🌟</string>
+    <string name="dialog_msg_ads_save_mood">要保存今天的心情，请观看一个简短广告。只需片刻，帮助我们让 CalmRoutine 免费服务所有人 🌿</string>
+    <string name="dialog_button_confirm_ads_save_mood">观看广告</string>
+
+    <string name="dialog_title_force_update">温柔的提醒 ✨</string>
+    <string name="dialog_msg_force_update">我们优化了一些功能，让您的 CalmRoutine 更顺畅。\n请更新以继续您的旅程。</string>
+    <string name="dialog_button_confirm_force_update">立即更新</string>
+
+    <string name="dialog_title_unsaved_profile">要离开前 ✋</string>
+    <string name="dialog_msg_unsaved_profile">你有未保存的更改。\n是否保存后再退出？</string>
+    <string name="dialog_button_confirm_unsaved_profile">保存并退出</string>
+    <string name="dialog_button_dismiss_unsaved_profile">放弃更改</string>
+</resources>

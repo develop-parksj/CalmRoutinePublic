@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">CalmRoutine</string>
+
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Annuler</string>
+    <string name="common_loading">Chargement</string>
+    <string name="common_add">Ajouter</string>
+    <string name="common_undo">Annuler</string>
+    <string name="common_save">Enregistrer</string>
+
+    <!-- Écran de connexion -->
+    <string name="login_login">Se connecter</string>
+
+    <!-- Écran d'accueil -->
+    <string name="home_title">Bonjour 👋</string>
+
+    <!-- Routine du jour -->
+    <string name="home_today_routine_title">Routine du jour</string>
+    <string name="home_today_routine_summary">%1$d sur %2$d routines complétées</string>
+    <string name="home_today_routine_incomplete">Routines incomplètes</string>
+
+    <!-- Humeur du jour -->
+    <string name="home_today_mood_title">Humeur du jour</string>
+    <string name="home_today_mood_prompt">Vous n\'avez pas encore enregistré votre humeur aujourd’hui.</string>
+    <string name="home_today_mood_question">Comment vous sentez-vous aujourd’hui ?</string>
+    <string name="home_today_mood_record">Enregistrer l’humeur</string>
+
+    <!-- Enregistrements d'humeur récents -->
+    <string name="home_recent_moods_title">Humeurs récentes</string>
+    <string name="home_recent_moods_view_all">Voir tout</string>
+    <string name="home_recent_moods_not_yet">Aucun enregistrement d’humeur pour l’instant.</string>
+
+    <!-- Écran de routine -->
+    <string name="routine_title">Routine du jour</string>
+    <string name="routine_completion_text">%1$d / %2$d routines complétées (%3$d%%)</string>
+    <string name="routine_empty_hint">Aucune routine pour le moment. Ajoutez-en une !</string>
+    <string name="routine_add_title">Ajouter une nouvelle routine</string>
+    <string name="routine_add_hint">Entrez le titre de la routine</string>
+    <string name="routine_add">Ajouter</string>
+    <string name="routine_edit_hint">Modifier le nom de la routine</string>
+    <string name="routine_deleted">Routine supprimée</string>
+
+    <!-- Écran d'humeur -->
+    <string name="mood_title">Comment vous sentez-vous aujourd’hui ?</string>
+    <string name="mood_memo_hint">N’hésitez pas à écrire sur votre journée, votre humeur ou vos pensées</string>
+    <string name="mood_memo_placeholder">Écrivez ce que vous voulez...</string>
+    <string name="mood_ai_comment_title">Commentaire de l\'IA</string>
+    <string name="mood_loading">Chargement...</string>
+    <string name="mood_comment_error">Échec de la récupération du commentaire de l’IA 😢</string>
+    <string name="mood_save_ads_loading">Préparation de votre moment... 🌿</string>
+
+    <string name="mood_add_custom_mood_title">Ajouter un emoji personnalisé</string>
+    <string name="mood_add_custom_mood_emoji_label">Emoji</string>
+
+    <!-- Écran d'historique des humeurs -->
+    <string name="mood_history_title">Historique des humeurs</string>
+    <string name="mood_history_no_records">Aucun enregistrement d’humeur trouvé.</string>
+    <string name="mood_history_date_format">%1$s</string> <!-- Exemple : 2025-06-30 -->
+    <string name="mood_history_ai_comment_label">Commentaire IA :</string>
+    <string name="mood_history_memo_label">Votre note :</string>
+
+    <!-- Écran de paramètres -->
+    <!-- 1. Compte et authentification -->
+    <string name="settings_logout">Se déconnecter</string>
+    <string name="settings_logout_desc">Déconnexion de votre compte</string>
+
+    <string name="settings_edit_profile">Modifier le profil</string>
+    <string name="settings_edit_profile_desc">Mettre à jour votre pseudo, genre, date de naissance et centres d’intérêt</string>
+
+    <string name="settings_edit_profile_title">Modifier le profil</string>
+    <string name="settings_edit_profile_email_label">E-mail</string>
+    <string name="settings_edit_profile_nickname_label">Pseudo</string>
+    <string name="settings_edit_profile_gender_label">Genre</string>
+    <string name="settings_edit_profile_birthdate_label">Date de naissance</string>
+    <string name="settings_edit_profile_interest_label">Centres d’intérêt</string>
+    <string name="settings_edit_profile_interest_hint">Tapez et appuyez sur Entrée...</string>
+    <string name="settings_edit_profile_save_button">Enregistrer</string>
+
+    <string name="settings_edit_profile_gender_male">Homme</string>
+    <string name="settings_edit_profile_gender_female">Femme</string>
+    <string name="settings_edit_profile_gender_unspecified">Non spécifié</string>
+
+    <!-- 2. Paramètres de notification -->
+    <string name="settings_push_notifications">Notifications push</string>
+    <string name="settings_push_notifications_desc">Activer ou désactiver les notifications</string>
+
+    <string name="settings_notification_time">Heure de notification</string>
+    <string name="settings_notification_time_desc">Définir l\'heure préférée pour les rappels</string>
+
+    <string name="settings_notification_type">Type de notification</string>
+    <string name="settings_notification_type_desc">Choisissez les types de notifications</string>
+
+    <string name="settings_notification_type_dialog_title">Sélectionner les types de notification</string>
+    <string name="settings_notification_type_routine">Rappels de routine</string>
+    <string name="settings_notification_type_mood">Suivi de l’humeur</string>
+    <string name="settings_notification_type_ai">Conseils du coach IA</string>
+
+    <!-- Messages de notification -->
+    <string name="notification_title_routine_01">Restez dans le rythme 🌅</string>
+    <string name="notification_msg_routine_01">N\'oubliez pas de vérifier votre routine du jour.</string>
+
+    <string name="notification_title_routine_02">Restez doucement sur la voie 🧭</string>
+    <string name="notification_msg_routine_02">Une petite routine stabilise votre journée.</string>
+
+    <string name="notification_title_routine_03">Un pas à la fois 👣</string>
+    <string name="notification_msg_routine_03">Votre rythme paisible compte — continuez comme ça.</string>
+
+    <string name="notification_title_routine_04">Un moment pour vous 🕊️</string>
+    <string name="notification_msg_routine_04">Laissez vos habitudes faire le reste.</string>
+
+    <string name="notification_title_routine_05">Revenez à votre flux 💧</string>
+    <string name="notification_msg_routine_05">Gardons l\'élan, tout en douceur.</string>
+
+    <string name="notification_title_routine_06">Respirez et commencez 🌬️</string>
+    <string name="notification_msg_routine_06">Votre routine est prête quand vous l’êtes.</string>
+
+    <string name="notification_title_routine_07">Ancrez votre journée ⚓</string>
+    <string name="notification_msg_routine_07">Une petite habitude apaise l’esprit.</string>
+
+    <string name="notification_title_routine_08">Le progrès calme compte 🌿</string>
+    <string name="notification_msg_routine_08">Vous construisez quelque chose de beau — un pas après l’autre.</string>
+
+    <string name="notification_title_routine_09">Votre guide doux est là 💫</string>
+    <string name="notification_msg_routine_09">Vos étapes quotidiennes vous attendent.</string>
+
+    <string name="notification_title_routine_10">Petits rituels, grande paix ✨</string>
+    <string name="notification_msg_routine_10">Même les petites routines ont une grande signification.</string>
+
+    <string name="notification_title_mood_01">Comment va votre cœur aujourd’hui ? 💛</string>
+    <string name="notification_msg_mood_01">Prenez un moment pour vous recentrer.</string>
+
+    <string name="notification_title_mood_02">Juste vous et cet instant 🌿</string>
+    <string name="notification_msg_mood_02">Faites une pause et observez doucement comment vous vous sentez.</string>
+
+    <string name="notification_title_mood_03">Les petites émotions comptent 🌙</string>
+    <string name="notification_msg_mood_03">Peu importe ce que vous ressentez — c’est légitime.</string>
+
+    <string name="notification_title_mood_04">Vérification douce 🫧</string>
+    <string name="notification_msg_mood_04">Votre humeur mérite toujours votre attention.</string>
+
+    <string name="notification_title_mood_05">Bonjour météo intérieure ☁️</string>
+    <string name="notification_msg_mood_05">Quel temps fait-il à l’intérieur aujourd’hui ?</string>
+
+    <string name="notification_title_mood_06">Laissez entrer, laissez être 🌊</string>
+    <string name="notification_msg_mood_06">C’est normal de ressentir ce que vous ressentez.</string>
+
+    <string name="notification_title_mood_07">Un souffle de conscience 🌬️</string>
+    <string name="notification_msg_mood_07">Inspirez, expirez — et vérifiez votre humeur en douceur.</string>
+
+    <string name="notification_title_mood_08">Ralentissez et écoutez 🎧</string>
+    <string name="notification_msg_mood_08">Vos émotions ont quelque chose à dire.</string>
+
+    <string name="notification_title_mood_09">Soyez calme, soyez bienveillant 🤲</string>
+    <string name="notification_msg_mood_09">Offrez-vous un espace pour ressentir sans jugement.</string>
+
+    <string name="notification_title_mood_10">Vous êtes en sécurité pour ressentir 🌌</string>
+    <string name="notification_msg_mood_10">Ce moment est pour vous. Que ressentez-vous ?</string>
+
+    <!-- 3. Paramètres du coach IA -->
+    <string name="settings_ai_comment_style">Style des commentaires IA</string>
+    <string name="settings_ai_comment_style_desc">Choisissez le style des commentaires de l’IA</string>
+
+    <string name="settings_ai_comment_dialog_title">Choisir un style de commentaire</string>
+    <string name="settings_ai_comment_style_friendly">Amical</string>
+    <string name="settings_ai_comment_style_motivational">Motivant</string>
+    <string name="settings_ai_comment_style_reflective">Réfléchi</string>
+
+    <string name="settings_ai_comment_frequency">Fréquence des commentaires IA</string>
+    <string name="settings_ai_comment_frequency_desc">Définir la fréquence des messages IA</string>
+
+    <string name="settings_ai_frequency_dialog_title">Choisir la fréquence</string>
+    <string name="settings_ai_comment_frequency_high">Fréquemment</string>
+    <string name="settings_ai_comment_frequency_medium">Parfois</string>
+    <string name="settings_ai_comment_frequency_low">Rarement</string>
+
+    <!-- 4. Thème et apparence de l'application -->
+    <string name="settings_theme_mode">Mode de thème</string>
+    <string name="settings_theme_mode_desc">Choisissez Clair, Sombre ou par défaut du système</string>
+
+    <string name="settings_theme_mode_dialog_title">Choisir le mode de thème</string>
+    <string name="settings_theme_mode_light">Clair</string>
+    <string name="settings_theme_mode_dark">Sombre</string>
+    <string name="settings_theme_mode_system">Défaut système</string>
+
+    <string name="settings_font_size">Taille de la police</string>
+    <string name="settings_font_size_desc">Ajuster la taille du texte de l’application</string>
+
+    <string name="settings_font_size_dialog_title">Choisir la taille de la police</string>
+    <string name="settings_font_size_small">Petite</string>
+    <string name="settings_font_size_medium">Moyenne</string>
+    <string name="settings_font_size_large">Grande</string>
+
+    <string name="settings_color_theme">Thème de couleur</string>
+    <string name="settings_color_theme_desc">Choisir le thème coloré de l’application</string>
+
+    <string name="settings_color_theme_dialog_title">Choisir le thème de couleur</string>
+    <string name="settings_color_theme_blue">Bleu pastel</string>
+    <string name="settings_color_theme_mint">Menthe pastel</string>
+    <string name="settings_color_theme_pink">Rose pastel</string>
+
+    <!-- 5. Données et sauvegarde -->
+    <string name="settings_data_backup">Sauvegarde des données</string>
+    <string name="settings_data_backup_desc">Sauvegardez vos données dans le cloud</string>
+    <string name="settings_data_backup_warning">※Les sauvegardes sont conservées pendant 7 jours</string>
+
+    <string name="settings_data_restore">Restaurer les données</string>
+    <string name="settings_data_restore_desc">Récupérez vos données depuis le cloud</string>
+
+    <string name="settings_data_reset">Réinitialiser les données</string>
+    <string name="settings_data_reset_desc">Effacez toutes les données de l’application</string>
+
+    <string name="settings_data_sync">Paramètres de synchronisation</string>
+    <string name="settings_data_sync_desc">Configurer la synchronisation automatique des données</string>
+
+    <string name="settings_sync_data_title">Synchronisation des données</string>
+    <string name="settings_sync_data_auto_backup">Activer la sauvegarde automatique</string>
+    <string name="settings_sync_data_backup_frequency">Fréquence de sauvegarde</string>
+    <string name="settings_sync_data_backup_frequency_desc">Définir la fréquence de sauvegarde automatique</string>
+    <string name="settings_sync_data_last_sync">Dernière synchronisation</string>
+    <string name="settings_sync_data_manual_sync">Synchroniser maintenant</string>
+    <string name="settings_sync_data_manual_sync_desc">Sauvegarder et restaurer vos données immédiatement</string>
+    <string name="settings_sync_data_frequency_daily">Quotidiennement</string>
+    <string name="settings_sync_data_frequency_weekly">Hebdomadairement</string>
+    <string name="settings_sync_data_frequency_monthly">Mensuellement</string>
+
+    <!-- 6. Premium et publicité -->
+    <string name="settings_premium_upgrade">Passer à Premium</string>
+    <string name="settings_premium_upgrade_desc">Supprimez les pubs et débloquez toutes les fonctionnalités</string>
+
+    <string name="settings_premium_upgrade_dialog_title">Passer à Premium</string>
+    <string name="settings_premium_upgrade_dialog_desc_locked_feature">Cette fonctionnalité est réservée aux abonnés Premium.</string>
+    <string name="settings_premium_upgrade_dialog_button">Passer à Premium</string>
+
+    <string name="settings_premium_upgrade_title">Débloquez Premium</string>
+    <string name="settings_premium_upgrade_msg">Accédez à toute l’expérience bien-être avec les fonctions Premium.</string>
+    <string name="settings_premium_upgrade_cancel">Vous pouvez annuler à tout moment depuis votre compte Play Store.</string>
+
+    <string name="settings_premium_upgrade_monthly">Mensuel</string>
+    <string name="settings_premium_upgrade_yearly">Annuel</string>
+
+    <string name="settings_premium_upgrade_benefit1_title">Aucune pub, juste la sérénité</string>
+    <string name="settings_premium_upgrade_benefit1_desc">Profitez d’une expérience fluide et sans distractions, sans aucune publicité.</string>
+
+    <string name="settings_premium_upgrade_benefit2_title">Une IA plus intelligente avec GPT-4.1</string>
+    <string name="settings_premium_upgrade_benefit2_desc">Recevez un accompagnement plus profond et personnalisé grâce à GPT-4.1.</string>
+
+    <string name="settings_premium_upgrade_benefit3_title">Modifier vos émotions à tout moment</string>
+    <string name="settings_premium_upgrade_benefit3_desc">Mettez à jour votre humeur jusqu’à 3 fois par jour selon vos ressentis.</string>
+
+    <string name="settings_premium_upgrade_benefit4_title">Personnalisez les icônes d’émotion</string>
+    <string name="settings_premium_upgrade_benefit4_desc">Changez les icônes et couleurs de vos émotions à votre guise.</string>
+
+    <string name="settings_premium_upgrade_benefit5_title">Adaptez le style de l’IA</string>
+    <string name="settings_premium_upgrade_benefit5_desc">Choisissez le ton et la fréquence des messages IA selon votre ambiance.</string>
+
+    <string name="settings_premium_upgrade_benefit6_title">Sauvegarde &amp; synchronisation</string>
+    <string name="settings_premium_upgrade_benefit6_desc">Sauvegardez vos données en toute sécurité et synchronisez facilement entre vos appareils.</string>
+
+    <string name="settings_subscription_status">Statut de l’abonnement</string>
+    <string name="settings_subscription_status_premium_active">Premium actif</string>
+    <string name="settings_subscription_status_free_plan">Offre gratuite</string>
+
+    <string name="settings_manage_subscription">Gérer l’abonnement</string>
+    <string name="settings_manage_subscription_desc">Gérez votre abonnement dans le Play Store</string>
+
+    <!-- 7. Divers -->
+    <string name="settings_open_source_licenses">Licences open source</string>
+    <string name="settings_open_source_licenses_desc">Afficher les licences open source utilisées dans cette application</string>
+
+    <string name="settings_privacy_policy">Politique de confidentialité</string>
+    <string name="settings_privacy_policy_desc">Voir la politique de confidentialité de CalmRoutine</string>
+
+    <string name="settings_version_info">Informations sur la version</string>
+    <string name="settings_version_info_desc">Version de l’application : %1$s</string>
+
+    <string name="settings_feedback">Envoyer un retour</string>
+    <string name="settings_feedback_desc">Contactez-nous ou envoyez vos impressions</string>
+
+    <string name="toast_fail_login">Échec de la connexion. Veuillez réessayer.</string>
+    <string name="toast_fail_logout">Échec de la déconnexion. Veuillez réessayer.</string>
+    <string name="toast_fail_save_mood">Impossible d’enregistrer votre humeur. Veuillez réessayer.</string>
+    <string name="toast_fail_backup">Échec de la sauvegarde. Veuillez réessayer.</string>
+    <string name="toast_fail_restore">Échec de la restauration. Veuillez réessayer.</string>
+    <string name="toast_fail_reset_data">Échec de la réinitialisation. Veuillez réessayer.</string>
+    <string name="toast_fail_sync_data">Échec de la synchronisation. Veuillez réessayer.</string>
+
+    <string name="toast_success_login">Vous êtes connecté(e).</string>
+    <string name="toast_success_logout">Déconnexion réussie.</string>
+    <string name="toast_success_save_mood">Votre humeur a été enregistrée avec succès !</string>
+    <string name="toast_success_save_profile">Profil enregistré avec succès.</string>
+    <string name="toast_success_backup">Sauvegarde terminée avec succès.</string>
+    <string name="toast_success_restore">Restauration réussie ! Redémarrage de l’application pour appliquer les changements.</string>
+    <string name="toast_success_reset_data">Vos données ont été effacées et réinitialisées. Un nouveau départ 🌱</string>
+    <string name="toast_success_sync_data">Synchronisation terminée ! Vos données sont à jour.</string>
+    <string name="toast_mood_save_limit">Limite de modification d’humeur atteinte. Réessayez demain 🌿</string>
+
+    <string name="dialog_msg_error_network">Veuillez vérifier votre connexion Internet.</string>
+
+    <string name="dialog_title_logout">Une petite pause ? 🌙</string>
+    <string name="dialog_msg_logout">La déconnexion vous déconnectera de votre parcours sur CalmRoutine.\nPas d’inquiétude, vos routines et enregistrements sont en sécurité.</string>
+    <string name="dialog_button_confirm_logout">Rester connecté(e)</string>
+    <string name="dialog_button_dismiss_logout">Oui, me déconnecter</string>
+
+    <string name="dialog_title_reset_data">Envie de renouveau ? 🌿</string>
+    <string name="dialog_msg_reset_data">Réinitialiser vos données vous offrira un nouveau départ sur votre chemin CalmRoutine.\nMais rassurez-vous — votre bien-être reste avec vous.</string>
+    <string name="dialog_button_confirm_reset_data">Plus tard</string>
+    <string name="dialog_button_dismiss_reset_data">Réinitialiser maintenant</string>
+
+    <string name="dialog_title_restore">Restaurer vos anciennes routines ? 🕊️</string>
+    <string name="dialog_msg_restore">La restauration remplacera vos données actuelles par la sauvegarde. Assurez-vous d’être prêt avant de continuer 💾</string>
+    <string name="dialog_button_confirm_restore">Pas maintenant</string>
+    <string name="dialog_button_dismiss_restore">Restaurer maintenant</string>
+
+    <string name="dialog_title_notification_denied">Un petit rappel en douceur ? 🔔</string>
+    <string name="dialog_msg_notification_denied">Nous aimerions vous rappeler de prendre soin de vous.\nMais les notifications sont désactivées.\nAllons dans les paramètres pour les réactiver doucement.</string>
+    <string name="dialog_button_confirm_notification_denied">Aller aux paramètres</string>
+    <string name="dialog_button_dismiss_notification_denied">Peut-être plus tard</string>
+
+    <string name="dialog_title_exact_alarm_denied">Le bon moment, le bon rappel ⏰</string>
+    <string name="dialog_msg_exact_alarm_denied">Pour vous rappeler au moment parfait,\nCalmRoutine a besoin de la permission d’envoyer des rappels précis.\nAllons dans les paramètres pour l’activer 🌙</string>
+    <string name="dialog_button_confirm_exact_alarm_denied">Autoriser les rappels précis</string>
+    <string name="dialog_button_dismiss_exact_alarm_denied">Pas maintenant</string>
+
+    <string name="dialog_title_battery_optimization">Restez zen &amp; plein(e) d’énergie ⚡</string>
+    <string name="dialog_msg_battery_optimization">Pour que CalmRoutine puisse vous rappeler à temps,\nmerci de désactiver l’optimisation de la batterie pour cette app.\nOuvrir les paramètres maintenant ?</string>
+    <string name="dialog_button_confirm_battery_optimization">Ouvrir les paramètres</string>
+    <string name="dialog_button_dismiss_battery_optimization">Peut-être plus tard</string>
+
+    <string name="dialog_title_feedback">Votre voix compte 💌</string>
+    <string name="dialog_msg_feedback">Nous serions ravis de savoir ce que vous pensez.\nPrêt(e) à nous envoyer un petit message ?</string>
+    <string name="dialog_button_confirm_feedback">Envoyer un retour</string>
+    <string name="dialog_button_dismiss_feedback">Peut-être plus tard</string>
+
+    <string name="dialog_title_ads_save_mood">Regardez une courte pub 🌟</string>
+    <string name="dialog_msg_ads_save_mood">Pour enregistrer votre humeur du jour, merci de regarder une courte publicité. Cela ne prend qu’un instant et nous aide à garder CalmRoutine gratuit pour tous 🌿</string>
+    <string name="dialog_button_confirm_ads_save_mood">Regarder la pub</string>
+
+    <string name="dialog_title_force_update">Un petit rappel ✨</string>
+    <string name="dialog_msg_force_update">Nous avons amélioré quelques détails pour rendre CalmRoutine encore plus fluide.\nVeuillez mettre à jour pour poursuivre votre parcours.</string>
+    <string name="dialog_button_confirm_force_update">Mettre à jour maintenant</string>
+
+    <string name="dialog_title_unsaved_profile">Avant de partir ✋</string>
+    <string name="dialog_msg_unsaved_profile">Il semble que vous ayez apporté des modifications.\nSouhaitez-vous enregistrer avant de quitter ?</string>
+    <string name="dialog_button_confirm_unsaved_profile">Enregistrer et quitter</string>
+    <string name="dialog_button_dismiss_unsaved_profile">Ignorer</string>
+</resources>
